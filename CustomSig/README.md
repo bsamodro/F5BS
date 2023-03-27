@@ -1,4 +1,4 @@
-## BigIP AWAF - Custom Signature : Block Meta Character + remote execution comammand in URL Parameter
+## BigIP AWAF - Custom Signature : Block Meta Character + remote execution command in URL Parameter
 
 ### This Document will explain how to block URL which have metacharacter & remote execution command in parameter. BuiltIn Signature can only block remote execution command in Body (Payload)
 
@@ -16,3 +16,4 @@ Click Security -> Options -> Application Security -> Attack Signature -> Attack 
 - Use Regular expresstion to block the parameter. In this sample we want to block "=rm or |rm" in URL, sample : www.exmaple.com/index.php?a=rm
 - After we fill all mandatory field , click add
 - We will add 2 sample attack signature
+
