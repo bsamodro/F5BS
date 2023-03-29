@@ -42,7 +42,14 @@ Click Security -> Application Security -> Policy Building -> Learning and Blocki
 
 #### Signature has been built , its time to test
 - On browser open  http://10.1.10.201/index.php/xxx=rm
-
+<img width="918" alt="Test 1" src="https://user-images.githubusercontent.com/24970035/228470243-966f0a00-c013-4d74-85a6-82507514279c.png">
 - On BigIP check request log : Security -> Event Logs -> Application -> Requests
+<img width="1439" alt="Test 2" src="https://user-images.githubusercontent.com/24970035/228470259-7df9c362-5a99-48aa-80a6-aa74d9b373fd.png">
+
+### ASM Has Built in tools to test Regex
+- Click Security -> Options -> Application Security -> RegExp Validator
+- Sample we want to test www.example.com/index.php.?12=rm using regex [=,|]rm
+
+Please use this tool before we add regexp to custom signature
 
 
