@@ -36,5 +36,7 @@ Click Security -> Application Security -> Policy Building -> Learning and Blocki
 - Click "Change"
 - Tick Custom_Remote_Execution & Click "Change"
 - Click "Save" and "Apply Policy"
+<img width="1000" alt="Assign Set 1" src="https://user-images.githubusercontent.com/24970035/228468499-7ef00f97-75b0-4350-aad7-10b7ff096545.png">
+<img width="790" alt="Assign Set 2" src="https://user-images.githubusercontent.com/24970035/228468531-38d4f268-1b46-44b1-8568-d2dcf359f8b8.png">
+<img width="1000" alt="Assign Set 3" src="https://user-images.githubusercontent.com/24970035/228468548-1448a860-4a79-406f-9588-37894d978a47.png">
 
-- 
