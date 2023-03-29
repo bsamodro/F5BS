@@ -18,4 +18,5 @@ Click Security -> Options -> Application Security -> Attack Signature -> Attack 
 - After we fill all mandatory field , click add
 - We will add 2 sample attack signature
 
-![custom_rm](https://user-images.githubusercontent.com/24970035/228018007-c3b7671e-eb30-4b62-aed1-5a5508463f03.jpg)
+<img width="700" alt="custom_del" src="https://user-images.githubusercontent.com/24970035/228451408-79dd1c46-8b4c-4c46-ba43-6cf7b694260e.png">
+<img width="700" alt="custom_rm" src="https://user-images.githubusercontent.com/24970035/228451435-3d6c08bb-bc97-4b6d-a5d9-7fccb7eafcee.png">
