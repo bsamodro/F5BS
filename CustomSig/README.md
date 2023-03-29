@@ -8,7 +8,7 @@
 Click Security -> Application Security -> Policy Building -> Learning and Blocking Setting -> select basic_Policy in left top page.
 Please do not use all_signature in any Policy. If we add custom signature, any policy which use all_signature will be impacted
 
-![Custom_Sig](https://user-images.githubusercontent.com/24970035/227852373-d22fe6f7-3176-4d76-83e4-2ec9600bdfa8.jpg)
+<img width="1000" alt="All SIignatures included" src="https://user-images.githubusercontent.com/24970035/228449952-ffd117bc-8dbf-40eb-aef3-3dff13d1f64d.png">
 
 #### Second : Add Custom Signature to Attack Signature List
 Click Security -> Options -> Application Security -> Attack Signature -> Attack Signature List -> Create
