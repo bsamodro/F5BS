@@ -46,10 +46,9 @@ Click Security -> Application Security -> Policy Building -> Learning and Blocki
 - On BigIP check request log : Security -> Event Logs -> Application -> Requests
 <img width="1439" alt="Test 2" src="https://user-images.githubusercontent.com/24970035/228470259-7df9c362-5a99-48aa-80a6-aa74d9b373fd.png">
 
-### ASM Has Built in tools to test Regex
+### ASM Has Built in tools to test Regular Expression
 - Click Security -> Options -> Application Security -> RegExp Validator
-- Sample we want to test www.example.com/index.php.?12=rm using regex [=,|]rm
-
+- Sample we want to test www.example.com/index.php.?12=rm using RegExp [=,|]rm
+<img width="1437" alt="Validator" src="https://user-images.githubusercontent.com/24970035/228473817-aca189d6-dd5c-4e45-974f-49dd27c21577.png">
+From The result , URL is matched with the RegExp.
 Please use this tool before we add regexp to custom signature
-
-
