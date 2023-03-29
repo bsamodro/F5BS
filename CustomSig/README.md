@@ -3,8 +3,9 @@
 ### This Document will explain how to block URL which have metacharacter & remote execution command in parameter. BuiltIn Signature can only block remote execution command in Body (Payload)
 
 ### Prerequisites : VS and Security Policy should have been configured. In this sample , I use "basic_Policy" for ASM security Policy
+<img width="1000" alt="VSwithPolicy" src="https://user-images.githubusercontent.com/24970035/228450495-024cb807-1a21-4f3d-b40d-929f633619e0.png">
 
-#### First : Associate Signature Set in Learning and Blocking Setting
+#### First : Check Signature Set in Learning and Blocking Setting
 Click Security -> Application Security -> Policy Building -> Learning and Blocking Setting -> select basic_Policy in left top page.
 Please do not use all_signature in any Policy. If we add custom signature, any policy which use all_signature will be impacted
 
