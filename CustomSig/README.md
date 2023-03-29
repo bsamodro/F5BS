@@ -29,3 +29,12 @@ Click Security -> Options -> Application Security -> Attack Signature -> Attack 
 
 <img width="700" alt="Signatures Set 1" src="https://user-images.githubusercontent.com/24970035/228456532-188fce7c-7341-4d38-bf6d-e83bdad5e61c.png">
 <img width="700" alt="Sgnatures Set 2" src="https://user-images.githubusercontent.com/24970035/228456557-41b2c9ac-aee3-4915-8744-9cfd27025290.png">
+
+#### Forth : Assign new Signature Set to Learning and Blocking Setting - Attack Signatures
+Click Security -> Application Security -> Policy Building -> Learning and Blocking Setting -> select basic_Policy in left top page.
+- Explore "Attack Signatures"
+- Click "Change"
+- Tick Custom_Remote_Execution & Click "Change"
+- Click "Save" and "Apply Policy"
+
+- 
