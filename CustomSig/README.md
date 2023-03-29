@@ -40,3 +40,9 @@ Click Security -> Application Security -> Policy Building -> Learning and Blocki
 <img width="790" alt="Assign Set 2" src="https://user-images.githubusercontent.com/24970035/228468531-38d4f268-1b46-44b1-8568-d2dcf359f8b8.png">
 <img width="1000" alt="Assign Set 3" src="https://user-images.githubusercontent.com/24970035/228468548-1448a860-4a79-406f-9588-37894d978a47.png">
 
+#### Signature has been built , its time to test
+- On browser open  http://10.1.10.201/index.php/xxx=rm
+
+- On BigIP check request log : Security -> Event Logs -> Application -> Requests
+
+
