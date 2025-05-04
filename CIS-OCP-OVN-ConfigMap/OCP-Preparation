@@ -1,24 +1,5 @@
-## OpenShift UDF Workshop - Cluster Preparation Guide
+## BigIP AWAF - Custom Signature : Block Meta Character + remote execution command in URL Parameter
 
-#### This document explains how to prepare the OpenShift cluster on UDF for first-time use and subsequent reboots. This includes ensuring all nodes are in the `Ready` state and verifying cluster availability.
+#### This Document will explain how to block URL which have metacharacter & remote execution command in parameter. BuiltIn Signature can only block remote execution command in Body (Payload)
 
----
-
-### 🔧 First Boot - Approving Node CSRs
-
-Use this procedure **only on first boot**, or when the cluster fails to bring nodes into `Ready` state.
-
-```bash
-oc config use-context default/api-ocp-f5-udf-com:6443/recovery
-
-while date; do
-  oc get nodes
-  oc get csr --no-headers | grep Pending | awk '{print $1}' | xargs --no-run-if-empty oc adm certificate approve
-  sleep 5
-done
-
-### Keep running the loop above until all nodes show Ready in the output of:
-
-oc get nodes
-
-
+#### Prerequisites : VS and Security Policy should have been configured. In this sample , I use "basic_Policy" for ASM security Policy
