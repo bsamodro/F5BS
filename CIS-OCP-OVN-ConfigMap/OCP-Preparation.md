@@ -46,9 +46,9 @@ watch oc get co
 All components should show Available=True, Progressing=False, and Degraded=False.
 
 If you’re still unable to log in after 15–20 minutes, or get connection errors:
-Re-run the CSR approval loop from the first boot step.
-Make sure all nodes are in Ready state with oc get nodes.
-Ensure your context is set to the correct recovery context:
+- Re-run the CSR approval loop from the first boot step.
+- Make sure all nodes are in Ready state with oc get nodes.
+- Ensure your context is set to the correct recovery context:
 
 ```bash
 oc config use-context default/api-ocp-f5-udf-com:6443/recovery
