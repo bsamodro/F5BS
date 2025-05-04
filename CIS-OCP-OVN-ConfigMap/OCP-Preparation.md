@@ -7,7 +7,7 @@
 ### First Boot or Node is not ready - Approving Node CSRs
 
 Login to ocp-provisioner : Click access -> click ssh -> Open Terminal
-
+<img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
 Check if all node status are ready
 ```bash
 oc get nodes
