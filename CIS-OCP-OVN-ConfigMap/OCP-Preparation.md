@@ -4,7 +4,14 @@
 
 ---
 
-### 🔧 First Boot - Approving Node CSRs
+### First Boot or Node is not ready - Approving Node CSRs
+
+Login to ocp-provisioner : Click access -> open ssh
+
+Check if all node status are ready
+```bash
+oc get nodes
+```
 
 Use this procedure **only on first boot**, or when the cluster fails to bring nodes into `Ready` state.
 
