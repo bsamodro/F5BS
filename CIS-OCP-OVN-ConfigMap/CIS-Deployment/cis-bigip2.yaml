@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cis-bigip2
+  namespace: kube-system
+spec:
+  # DO NOT INCREASE REPLICA COUNT
+  replicas: 1
+  selector:
+    matchLabels:
+      app: k8s-bigip-ctlr-deployment
+  template:
+    metadata:
+      labels:
+        app: k8s-bigip-ctlr-deployment
+    spec:
+      # Name of the Service Account bound to a Cluster Role with the required
+      # permissions
+      containers:
+        - name: cntr-ingress-svcs
+          image: registry.connect.redhat.com/f5networks/cntr-ingress-svcs:latest
+          securityContext:
+            runAsUser: 1000
+            runAsGroup: 3000
+            fsGroup: 2000
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop: ["ALL"]
+            runAsNonRoot: true
+            seccompProfile:
+              type: RuntimeDefault
+          env:
+            - name: BIGIP_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  # Replace with the name of the Secret containing your login
+                  # credentials
+                  name: bigip-login
+                  key: username
+            - name: BIGIP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  # Replace with the name of the Secret containing your login
+                  # credentials
+                  name: bigip-login
+                  key: password
+          command: ["/app/bin/k8s-bigip-ctlr"]
+          args: [
+            # See the k8s-bigip-ctlr documentation for information about
+            # all config options
+            # https://clouddocs.f5.com/containers/latest/
+              "--bigip-username=$(BIGIP_USERNAME)",
+              "--bigip-password=$(BIGIP_PASSWORD)",
+              "--agent=as3",
+              "--bigip-url=10.1.10.15",
+              "--bigip-partition=opp1-routing",
+              "--pool-member-type=cluster",
+              "--insecure=true",
+              "--static-routing-mode=true",
+              "--orchestration-cni=ovn-k8s",
+              "--as3-validation=true",
+              "--log-as3-response=true",
+              "--log-level=INFO",
+              "--manage-configmaps=true",
+          ]
+      serviceAccountName: bigip-ctlr
