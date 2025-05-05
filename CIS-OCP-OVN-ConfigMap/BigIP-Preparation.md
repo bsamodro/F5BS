@@ -11,7 +11,7 @@ Use the TMUI link of the both bigip node : bigip1 and bigip2
 
 <img width="1687" alt="Image" src="https://github.com/user-attachments/assets/e16b4f93-08af-4d7a-9076-f75a177df0b3" />
   
-### Check HA Sync Type
+### Check HA Sync Type (Should be Manual)
 
 HA Sync Type should be set to Manual to avoid conflict sync between CIS and TMOS HA. When we deploy CIS for BigIP CLuster HA, we will have 2 CIS per each node (standby and active) to do monitoring and config provisioning. If Sync Type is Auto, CIS will trigger issue that cis cannot update the config
 
