@@ -1,10 +1,47 @@
 ## CIS - OpenShift Workshop - BigIP Preparation Guide
 
-#### This document explains how to install CIS on OCP Cluster, Integrate to BigIP and Deploy Service with LTM as Ingress Controlle
+#### This document explains how to install CIS on OCP Cluster, Integrate to BigIP and Deploy Service with LTM as Ingress Controller
 
 ---
 
-### Installing CIS Manually¶
+### Installing CIS Manually in OCP Cluster
 
-1. 
+1. Use the FIREFOX link of the ocp-provisioner node and go to woeking Directory
+   ```bash
+   cd /home/cloud-user/CIS-Workshop
+   ```
+2. Set project / namespace to kube-system
+   ```bash
+   oc project kube-system
+   ```
+3. Add BIG-IP credentials as OSPC secrets
+   ```bash
+   oc create secret generic bigip-login -n kube-system --from-literal=username=admin --from-literal=password=f5demo#1
+   ```
+4. Create a Cluster Role and Cluster Role Binding on the Openshift Cluster by running the command below.
+   ```bash
+   oc create -f https://raw.githubusercontent.com/F5Networks/k8s-bigip-ctlr/2.x-master/docs/config_examples/rbac/openshift_rbac.yaml
+   ```
+5. Create the Cluster admin privileges for the BIG-IP service account user with the following command:
+   ```bash
+   oc adm policy add-cluster-role-to-user cluster-admin -z bigip-ctlr -n kube-system
+   ```
+6. Review CIS Deploymment config for bigip1 and bigip2. We can check only 1 config as reference
+   ```bash
+   cat CIS-Deployment/cis-bigip1.yaml
+   ```
+6. Apply CIS Deploymment config for bigip1 and bigip2
+   ```bash
+   oc create -f  CIS-Deployment/cis-bigip1.yaml
+   
+   oc create -f  CIS-Deployment/cis-bigip2.yaml
+   ```
+   
+### Installing CIS Manually in OCP Cluster
+
+1. Use the FIREFOX link of the ocp-provisioner node and go to woeking Directory
+   ```bash
+   cd /home/cloud-user/CIS-Workshop
+   ```
+   
 
