@@ -37,11 +37,13 @@
    oc create -f  CIS-Deployment/cis-bigip2.yaml
    ```
    
-### Installing CIS Manually in OCP Cluster
+###  BigIP Validation
 
-1. Use the FIREFOX link of the ocp-provisioner node and go to woeking Directory
-   ```bash
-   cd /home/cloud-user/CIS-Workshop
-   ```
+1. Use the TMUI link of the bigip1 dan bigip2 Node, login using admin
+
+2. Access the route configuration under the opp1-routing partition and Confirm that all 5 expected routes are correctly displayed and active
+
+3. 
+
    
 
