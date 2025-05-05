@@ -6,7 +6,7 @@
 
 ### Installing CIS Manually in OCP Cluster
 
-1. Use the SSH link of the ocp-provisioner node and go to woeking Directory
+1. Use the SSH link of the ocp-provisioner node and go to working Directory
    ```bash
    cd /home/cloud-user/CIS-Workshop
    ```
