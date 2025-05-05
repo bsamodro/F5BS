@@ -97,10 +97,39 @@ VS Code will highlight this as a schema error under the "Problems" tab.
 
 ---
 #### NonExist Object Validation Error
-This type of error is detected when we have typo in object name and BigIP doesn't have this object
-sample policy name : 
-You can view the error details in the CIS Pod log. Usually BigIP will send error code 422
 
-  
+This type of error typically occurs due to a typo in the object name. For example, the policy name might be correctly configured as /Common/arcadia-waf, but a mistake such as typing /Common/arcadia_waf (underscore instead of hyphen) will result in an error because BIG-IP cannot find the specified object.
+
+You can view detailed error information in the CIS Pod logs. In most cases, BIG-IP will respond with an HTTP status code 422 (Unprocessable Entity) when this happens.
+
+How to Simulate NonExist Object Validation Error
+
+- Edit the ConfigMap and change waf policy from arcadia-waf to arcadia_waf
+  ```
+  vi Arcadia/arcadia-cm.yaml
+  ```
+- Apply the invalid ConfigMap
+  ```
+  oc delete -f Arcadia/arcadia-cm.yaml
+  oc create -f Arcadia/arcadia-cm.yaml
+  ```
+- Check error in Pod log
+  ```
+  oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -3
+  ```
+  ```
+  2025/05/05 12:48:50 [ERROR] [2025-05-05 12:48:50,319 __main__ ERROR] Failed to process the config file /tmp/k8s-bigip-ctlr.config1337228655/config.json (json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0))
+  2025/05/05 12:48:50 [ERROR] [2025-05-05 12:48:50,320 __main__ ERROR] Error applying config, will try again in 1 seconds
+  2025/05/05 12:59:22 [ERROR] [AS3] Big-IP Responded with error code: 422
+  ```
+- Rollback to backup config and apply
+  ```
+  cp Arcadia/arcadia-cm.yaml_backup Arcadia/arcadia-cm.yaml
+  oc delete -f Arcadia/arcadia-cm.yaml
+  oc create -f Arcadia/arcadia-cm.yaml
+  ```
+
+You can also check this type of error in the BIG-IP logs for further details.
+
 
 
