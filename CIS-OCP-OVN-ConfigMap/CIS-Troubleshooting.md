@@ -27,21 +27,43 @@ It is not recommended to set the log level to DEBUG, as it generates excessive l
 
 Generally, there are two types of errors that may occur when applying a ConfigMap:
 1. Schema Validation Error
-2. BigIP Validation Error
+2. NonExist Object Validation Error
 
+---
 #### Schema Validation Error
-This type of error is detected before the configuration is sent to BIG-IP.
+In Certain Case, This type of error is detected before the configuration is sent to BIG-IP.
 You can view the error details in the CIS Pod log.
 
 How to Simulate a Schema Validation Error
 - Backup the existing ConfigMap.
-
+  ```bash
+  cp Arcadia/arcadia-cm.yaml Arcadia/arcadia-cm.yaml_backup
+  ```
 - Edit the ConfigMap and introduce an intentional error — for example, by adding a , (comma) character after a closing } brace in one or some of the lines.
-
+  ```bash
+  vi Arcadia/arcadia-cm.yaml
+  ```
 - Apply the invalid ConfigMap
-
+  ```
+  oc delete -f Arcadia/arcadia-cm.yaml
+  oc create -f Arcadia/arcadia-cm.yaml
+  ```
 - Check error in Pod log
-
+  ```
+  oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -3
+  ```
+  ```
+  2025/05/05 12:38:50 [ERROR] [2025-05-05 12:38:50,298 __main__ ERROR] Error applying config, will try again in 1 seconds
+  2025/05/05 12:44:04 [ERROR] Error processing configmap arcadia-cm in namespace: arcadia with err: invalid character ',' looking for beginning of object key string
+  2025/05/05 12:44:29 [ERROR] Error processing configmap arcadia-cm in namespace: arcadia with err: invalid character ',' looking for beginning of object key string
+  ```
+- Rollback to backup config and apply
+  ```
+  cp Arcadia/arcadia-cm.yaml_backup Arcadia/arcadia-cm.yaml
+  oc delete -f Arcadia/arcadia-cm.yaml
+  oc create -f Arcadia/arcadia-cm.yaml
+  ```
+  
 #### Schema Validation Best Practice
 
 Before applying the configuration, it's strongly recommended to validate the schema locally using Visual Studio Code (VS Code).
@@ -73,6 +95,11 @@ In this sample, there is a typo in the pool monitoring value:
 "tcp_half_open" (should be a valid monitor name like http).
 VS Code will highlight this as a schema error under the "Problems" tab.
 
+---
+#### NonExist Object Validation Error
+This type of error is detected when we have typo in object name and BigIP doesn't have this object
+sample policy name : 
+You can view the error details in the CIS Pod log. Usually BigIP will send error code 422
 
   
 
