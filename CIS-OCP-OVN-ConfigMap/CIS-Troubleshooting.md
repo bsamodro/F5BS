@@ -131,5 +131,17 @@ How to Simulate NonExist Object Validation Error
 
 You can also check this type of error in the BIG-IP logs for further details.
 
+- Use the SSH link of bigip1
+- Check restnode log
+  ```bash
+  tail -3 /var/log/restnoded/restnoded.log
+  ```
+  ```
+  Mon, 05 May 2025 13:05:29 GMT - finest: socket 2623 closed
+  Mon, 05 May 2025 13:05:54 GMT - finest: socket 2624 opened
+  Mon, 05 May 2025 13:05:56 GMT - warning: [appsvcs] {"message":"unable to digest declaration. Error: Unable to find specified WAF policy /Common/arcadia_waf for /arcadia-tenant/arcadia-app/arcadia-VS/policyWAF","level":"warning"}
+  ```
+
+---
 
 
