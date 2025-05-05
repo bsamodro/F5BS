@@ -42,13 +42,18 @@ How to Simulate a Schema Validation Error
 
 - Check error in Pod log
 
-#### Best Practice for Schema Validation
+#### Schema Validation Best Practice
 
-- Please refer to https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
+Before applying the configuration, it's strongly recommended to validate the schema locally using Visual Studio Code (VS Code).
 
-- Before apply the configuration , it is suggested to validate the schema in VS Code
+📘 Reference:
+👉 https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
 
-- Copy all lines under word Template to this block in VS Code
+Steps to Validate in VS Code
+1. Open VS Code.
+2. Copy all lines under the Template section from your AS3 configuration.
+   
+3. Paste them into a new file or validation block in VS Code (use JSON format).
   
   ```
   {
@@ -57,8 +62,15 @@ How to Simulate a Schema Validation Error
     ...
   }
   ```
-- Select View -> Problems to see schema validation error, in this sample, I have typo in pool monitoring "tcp_half_open"
-  
+4. Select View → Problems to view any schema validation errors.
+5. Fix any issues highlighted before applying the configuration.
+
+Example:
+In this sample, there is a typo in the pool monitoring value:
+"tcp_half_open" (should be a valid monitor name).
+VS Code will highlight this as a schema error under the "Problems" tab.
+
+
   
 
 
