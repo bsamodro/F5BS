@@ -1,7 +1,6 @@
-## CIS - OpenShift Workshop - CIS Deployment Guide
+## CIS - OpenShift Workshop - CIS Troubleshooting Guide
 
-#### This document explains how to install CIS on OCP Cluster, Integrate to BigIP and Deploy Service with LTM as Ingress Controller
-
+#### This document explains how to do troubleshooting CIS on OCP Cluster
 ---
 
 ### Troubleshooting CIS in OCP Cluster
