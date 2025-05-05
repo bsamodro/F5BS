@@ -1,4 +1,4 @@
-## CIS - OpenShift Workshop - BigIP Preparation Guide
+## CIS - OpenShift Workshop - CIS Deployment Guide
 
 #### This document explains how to install CIS on OCP Cluster, Integrate to BigIP and Deploy Service with LTM as Ingress Controller
 
@@ -43,7 +43,10 @@
 
 2. Access the route configuration under the opp1-routing partition and Confirm that all 5 expected routes are correctly displayed and active
 
-3. 
+<img width="1681" alt="Image" src="https://github.com/user-attachments/assets/442193c0-0a29-4c47-bc8e-8d8e07999539" />
+
+---
+
 
    
 
