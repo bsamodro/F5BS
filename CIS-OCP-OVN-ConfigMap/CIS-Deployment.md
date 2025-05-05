@@ -10,7 +10,7 @@
    ```bash
    cd /home/cloud-user/CIS-Workshop
    ```
-2. Set project / namespace to kube-system
+2. Set project or namespace to kube-system
    ```bash
    oc project kube-system
    ```
@@ -47,6 +47,33 @@
 
 ---
 
+###  Deploy Arcadia Service in OCP Cluster
 
-   
-
+1. Set project or namespace to arcadia
+   ```bash
+   oc project arcadia
+   ```
+2. Review Arcadia Deployment yaml
+   ```bash
+   cat Arcadia/arcadia-deployment.yaml 
+   ```
+2. Apply Arcadia Deployment yaml
+   ```bash
+   oc create -f Arcadia/arcadia-deployment.yaml 
+   ```
+3. Review Arcadia Service yaml
+   ```bash
+   cat Arcadia/arcadia-svc.yaml
+   ```
+4. Apply Arcadia Service yaml
+   ```bash
+   oc create -f Arcadia/arcadia-svc.yaml
+   ```
+5. Review Arcadia ConfigMap yaml
+   ```bash
+   cat Arcadia/arcadia-cm.yaml
+   ```
+6. Apply Arcadia Configmap yaml
+   ```bash
+   oc create -f  Arcadia/arcadia-cm.yaml
+   ```
