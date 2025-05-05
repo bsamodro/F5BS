@@ -19,4 +19,5 @@ HA Sync Type should be set to Manual to avoid conflict sync between CIS and TMOS
 
 - click "Device Management" -> click "Device Groups" -> Choose bigip-a_bigip-b_dg (Includes Self)
 
-
+ <img width="1672" alt="Image" src="https://github.com/user-attachments/assets/430144a8-f271-47a4-b272-b893271c90e6" />
+ <img width="1672" alt="Image" src="https://github.com/user-attachments/assets/54266b8e-74fc-46b7-8d6c-e869e9ed0e80" />
