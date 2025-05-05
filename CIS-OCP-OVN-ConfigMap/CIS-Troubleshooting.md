@@ -4,7 +4,7 @@
 
 ---
 
-### Installing CIS Manually in OCP Cluster
+### Troubleshooting CIS in OCP Cluster
 
 When deploying CIS on OpenShift (OCP), CIS will fully control the BIG-IP configuration. Therefore, if there are issues during service deployment, the first log to check is the CIS log in OCP.
 
