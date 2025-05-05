@@ -44,7 +44,7 @@ How to Simulate a Schema Validation Error
 
 #### Best Practice for Schema Validation
 
-- Please refer to
+- Please refer to https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
 
 - Before apply the configuration , it is suggested to validate the schema in VS Code
 
