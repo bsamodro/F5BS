@@ -52,7 +52,8 @@ Before applying the configuration, it's strongly recommended to validate the sch
 Steps to Validate in VS Code
 1. Open VS Code.
 2. Copy all lines under the Template section from your AS3 configuration.
-   
+<img width="735" alt="Image" src="https://github.com/user-attachments/assets/b9553452-0ab3-4f30-b613-9332deceaaed" />
+
 3. Paste them into a new file or validation block in VS Code (use JSON format).
   
   ```
@@ -63,11 +64,13 @@ Steps to Validate in VS Code
   }
   ```
 4. Select View → Problems to view any schema validation errors.
+<img width="1071" alt="Image" src="https://github.com/user-attachments/assets/50237aeb-d589-46df-a0fa-cecd675ac82f" />
+
 5. Fix any issues highlighted before applying the configuration.
 
 Example:
 In this sample, there is a typo in the pool monitoring value:
-"tcp_half_open" (should be a valid monitor name).
+"tcp_half_open" (should be a valid monitor name like http).
 VS Code will highlight this as a schema error under the "Problems" tab.
 
 
