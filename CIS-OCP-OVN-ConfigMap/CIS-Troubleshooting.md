@@ -57,7 +57,8 @@ How to Simulate a Schema Validation Error
     ...
   }
   ```
-- Select View -> Problems to see schema validation error
+- Select View -> Problems to see schema validation error, in this sample, I have typo in pool monitoring "tcp_half_open"
+  
   
 
 
