@@ -26,4 +26,19 @@ latest CIS release notes and compatibility with AS3 :
 
 How to validade AS3 in config map
 - https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
-  
+---
+
+- Step 1 : Check Reference and Variable
+https://github.com/bsamodro/F5BS/tree/main/CIS-OCP-OVN-ConfigMap
+
+- Step 2 : Check OCP Readiness (Probably can be discarded , if the cluster is ready)
+https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/OCP-Preparation.md
+
+- Step 3 : Prepare BigIP
+https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/BigIP-Preparation.md
+
+- Step 4 : Deploy CIS
+https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Deployment.md
+
+- Step 5 : Troubleshoot CIS (optional)
+https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Troubleshooting.md
