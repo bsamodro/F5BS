@@ -28,7 +28,10 @@ CIS will add a static route on the BIG-IP to reach OpenShift pod services via th
 Therefore, we need to prepare a dedicated partition on BIG-IP for this purpose. In this lab , we use opp1-routing as partition name
 
 - Click System -> Select Users -> Select Partition List -> Click "Plus" Sign
-
+<img width="421" alt="Image" src="https://github.com/user-attachments/assets/66c707dd-29d3-45ae-99ea-908a1fbfd034" />
 
 - Add opp1-routing -> click Finished
-  
+<img width="1681" alt="Image" src="https://github.com/user-attachments/assets/c993c6c3-16cf-462f-bada-4c21d8249533" />
+
+---
+#### Notes : we can add partition manually on standby node or sync config from active node
