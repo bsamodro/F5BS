@@ -31,7 +31,7 @@ Use the Firefox link of the Ubuntu-Client Node
 
 <img width="378" alt="Image" src="https://github.com/user-attachments/assets/1f599217-21f2-421e-bc2e-a29d798e9850" />
 
-
+<img width="1492" alt="Image" src="https://github.com/user-attachments/assets/464da1c7-03f3-4a83-a165-43e061e7fa7f" />
 
 ### BigIP Statistic Review 
 
