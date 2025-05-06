@@ -31,8 +31,6 @@ Run following command in ssh access, if you're unable to access firefox : Click 
 
 ### First Boot or Node is not ready - Approving Node CSRs
 
-Login to ocp-provisioner :
-
 Check if all node status are ready
 ```bash
 oc get nodes
