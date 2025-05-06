@@ -4,9 +4,14 @@
 
 ---
 
-### Using the OpenShift UI (Optional)
+### Using the OpenShift UI
 
 Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). Run following command in ssh access, if you're unable to access firefox
+
+Click access -> click ssh -> Open Terminal
+
+<img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
+
 - Clean previous firefox docker
   ```
   docker stop firefox
@@ -24,9 +29,7 @@ Use the FIREFOX link of the ocp-provisioner node. With this you will be running 
 
 ### First Boot or Node is not ready - Approving Node CSRs
 
-Login to ocp-provisioner : Click access -> click ssh -> Open Terminal
-
-<img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
+Login to ocp-provisioner :
 
 Check if all node status are ready
 ```bash
