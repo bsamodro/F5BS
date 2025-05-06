@@ -29,6 +29,9 @@ Use the Firefox link of the Ubuntu-Client Node
 
 - Use username : matt and password : secret to explore Arcadia Apps
 
+<img width="378" alt="Image" src="https://github.com/user-attachments/assets/1f599217-21f2-421e-bc2e-a29d798e9850" />
+
+
 
 ### BigIP Statistic Review 
 
