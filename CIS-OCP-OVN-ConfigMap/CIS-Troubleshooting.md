@@ -13,6 +13,8 @@ It is not recommended to set the log level to DEBUG, as it generates excessive l
   ```bash
   oc get pods -n kube-system
   ```
+  Output (no needd to copy)
+  
       NAME                          READY   STATUS    RESTARTS   AGE
       cis-bigip1-5cf4f8d9bc-xlwts   1/1     Running   0          3h3m
       cis-bigip2-855455999b-rxvgw   1/1     Running   0          3h3m
@@ -52,6 +54,7 @@ How to Simulate a Schema Validation Error
   ```
   oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -3
   ```
+  Output (no needd to copy)
   ```
   2025/05/05 12:38:50 [ERROR] [2025-05-05 12:38:50,298 __main__ ERROR] Error applying config, will try again in 1 seconds
   2025/05/05 12:44:04 [ERROR] Error processing configmap arcadia-cm in namespace: arcadia with err: invalid character ',' looking for beginning of object key string
