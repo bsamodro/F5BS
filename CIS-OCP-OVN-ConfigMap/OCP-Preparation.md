@@ -15,6 +15,20 @@ Check if all node status are ready
 oc get nodes
 ```
 
+Output
+```bash
+NAME                      STATUS   ROLES                         AGE    VERSION
+master-1.ocp.f5-udf.com   Ready    control-plane,master,worker   688d   v1.29.8+f10c92d
+master-2.ocp.f5-udf.com   Ready    control-plane,master,worker   688d   v1.29.8+f10c92d
+master-3.ocp.f5-udf.com   Ready    control-plane,master,worker   688d   v1.29.8+f10c92d
+worker-1.ocp.f5-udf.com   Ready    worker                        688d   v1.29.8+f10c92d
+worker-2.ocp.f5-udf.com   Ready    worker                        688d   v1.29.8+f10c92d
+```
+
+### If all node are ready , jump to next step : BigIP Preparation
+
+----
+
 Use this procedure **only on first boot**, or when the cluster fails to bring nodes into `Ready` state.
 
 ```bash
