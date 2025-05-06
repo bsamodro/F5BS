@@ -12,10 +12,10 @@ https://github.com/bsamodro/F5BS/tree/main/CIS-OCP-OVN-ConfigMap
 - Step 4 : Deploy CIS
   https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Deployment.md
 
-- Step 4 : Test and Validate Arcadia Apps
+- Step 5 : Test and Validate Arcadia Apps
   https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/Arcadia-ValidationAndTest.md
 
-- Step 5 : Troubleshoot CIS (optional)
+- Step 6 (optional) : Troubleshoot CIS 
   https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Troubleshooting.md
 ---
 ### Environment
