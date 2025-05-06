@@ -68,13 +68,18 @@ oc config use-context default/api-ocp-f5-udf-com:6443/recovery
 ### Using the OpenShift UI
 
 Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). Run following command in ssh access, if you're unable to access firefox
-
-```bash
-docker run -d \
+- Clean previous firefox docker
+  ```
+  docker stop firefox
+  docker rm firefox
+  ```
+- Create new firefox docker
+  ```bash
+  docker run -d \
     --name=firefox \
     -p 5800:5800 \
     -v ~/firefox-saas:/config:rw \
     jlesage/firefox
-```
+  ```
 ---
 
