@@ -6,9 +6,11 @@
 
 ### Using the OpenShift UI
 
-Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). Run following command in ssh access, if you're unable to access firefox
+Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). 
 
-Click access -> click ssh -> Open Terminal
+<img width="476" alt="Image" src="https://github.com/user-attachments/assets/1ea447f9-ad0b-48eb-8281-beaa4e6a5932" />
+
+Run following command in ssh access, if you're unable to access firefox : Click access -> click ssh -> Open Terminal
 
 <img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
 
