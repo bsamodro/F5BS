@@ -32,5 +32,7 @@ Use the Firefox link of the Ubuntu-Client Node
 Use the TMUI link of the active bigip Node : bigip1 or bigip2
 
 - Click  "Local Traffic" -> click "Virtual Servers" -> Pools -> Statistics -> Change Partition to "arcadia-tenant"
+  
+<img width="1681" alt="Image" src="https://github.com/user-attachments/assets/20d2f0e6-a1b4-43b8-bde4-a1a847380d24" />
 
 ---
