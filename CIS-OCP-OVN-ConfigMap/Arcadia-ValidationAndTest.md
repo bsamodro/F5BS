@@ -25,7 +25,10 @@ Use the Firefox link of the Ubuntu-Client Node
 
 - Type https://arcadia.f5demo/ in address bar and click login
 
+<img width="1681" alt="Image" src="https://github.com/user-attachments/assets/0b4ba679-fd01-4897-b108-9ea50c158faa" />
+
 - Use username : matt and password : secret to explore Arcadia Apps
+
 
 ### BigIP Statistic Review 
 
