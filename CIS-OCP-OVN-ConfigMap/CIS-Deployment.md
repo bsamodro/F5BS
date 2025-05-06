@@ -41,7 +41,7 @@
 
 1. Use the TMUI link of the bigip1 dan bigip2 Node, login using admin
 
-2. Access the route configuration (Click Network -> Routes) under the opp1-routing partition and Confirm that all 5 expected routes are correctly displayed and active
+2. Access the route configuration (Click Network -> Routes) under the **opp1-routing** partition and Confirm that all 5 expected routes are correctly displayed and active
 
 <img width="1681" alt="Image" src="https://github.com/user-attachments/assets/442193c0-0a29-4c47-bc8e-8d8e07999539" />
 
