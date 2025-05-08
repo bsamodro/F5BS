@@ -37,7 +37,7 @@ Use the FIREFOX link of the ocp-provisioner node. With this you will be running 
 
 ### First Boot or Node is not ready - Approving Node CSRs
 
-Check if all node status are ready
+In Webshell Terminal, Check if all node status are ready
 ```bash
 oc get nodes
 ```
