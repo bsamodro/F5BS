@@ -7,6 +7,9 @@
 ### AS3 Module Validation
 
 Use the TMUI link of the both bigip node : bigip1 and bigip2
+
+<img width="370" alt="Image" src="https://github.com/user-attachments/assets/f87857b8-d526-433a-b9cd-a97348966f40" />
+
 - login as admin -> click iApps -> click "Package Management LX" -> validate that f5-avvsvcs installed ( we use 3.54 version )
 
 <img width="1687" alt="Image" src="https://github.com/user-attachments/assets/e16b4f93-08af-4d7a-9076-f75a177df0b3" />
