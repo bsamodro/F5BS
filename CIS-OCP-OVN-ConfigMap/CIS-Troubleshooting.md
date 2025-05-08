@@ -20,9 +20,9 @@ It is not recommended to set the log level to DEBUG, as it generates excessive l
   cis-bigip2-855455999b-rxvgw   1/1     Running   0          3h3m
   ```
 - check latest log from CIS Pod (see pod name from above command)
-- oc logs [pod name] | tail -10
+- change the pod name 
   ```bash
-  oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -10
+  oc logs [pod-name] -n kube-system | tail -10
   ```
 
 ---
@@ -51,9 +51,9 @@ How to Simulate a Schema Validation Error
   oc delete -f Arcadia/arcadia-cm.yaml
   oc create -f Arcadia/arcadia-cm.yaml
   ```
-- Check error in Pod log
+- Check error in Pod log (Change Pod Name!)
   ```
-  oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -3
+  oc logs [pod-name] -n kube-system | tail -3
   ```
   Output (no needd to copy)
   ```
@@ -117,9 +117,9 @@ How to Simulate NonExist Object Validation Error
   oc delete -f Arcadia/arcadia-cm.yaml
   oc create -f Arcadia/arcadia-cm.yaml
   ```
-- Check error in Pod log
+- Check error in Pod log (Change Pod Name)
   ```
-  oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -3
+  oc logs [pod-name] -n kube-system | tail -3
   ```
   ```
   2025/05/05 12:48:50 [ERROR] [2025-05-05 12:48:50,319 __main__ ERROR] Failed to process the config file /tmp/k8s-bigip-ctlr.config1337228655/config.json (json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0))
