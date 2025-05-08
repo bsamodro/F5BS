@@ -36,5 +36,5 @@ Therefore, we need to prepare a dedicated partition on BIG-IP for this purpose. 
 #### Notes : we can add partition manually on pair node or sync config from configured node
 
 ---
-[🏠 Home](README.md) | [➡️ Next](OCP-Preparation.md)
+[🏠 Home](readme.md) | [➡️ Next](OCP-Preparation.md)
 
