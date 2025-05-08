@@ -11,8 +11,10 @@ Use the Web Shell link of the ocp-provisioner node
 
 <img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
 
-Login as cloud-user
-
+- Login as cloud-user
+  ```
+  su - cloud-user
+  ```
 - Clean previous firefox docker
   ```
   docker stop firefox
