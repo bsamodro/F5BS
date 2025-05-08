@@ -10,7 +10,7 @@
 
 2. [Prepare BigIP](BigIP-Preparation.md)
 
-3. [Deploy CIS](CIS-Deployment)
+3. [Deploy CIS](CIS-Deployment.md)
 
 4. [Test and Validate Arcadia Apps](Arcadia-ValidationAndTest.md)
 
