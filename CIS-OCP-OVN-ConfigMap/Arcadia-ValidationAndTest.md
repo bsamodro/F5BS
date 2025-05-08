@@ -21,7 +21,7 @@ Use the TMUI link of the both bigip node : bigip1 and bigip2
 
 ### Test Application through Ubuntu Client
 
-Use the Firefox link of the Ubuntu-Client Node
+Use the FIREFOX link of the Ubuntu-Client Node
 
 - Type https://arcadia.f5demo/ in address bar and click login
 
