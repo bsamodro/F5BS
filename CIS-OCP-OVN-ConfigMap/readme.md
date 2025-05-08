@@ -1,3 +1,8 @@
+### Lab Diagram
+
+![Image](https://github.com/user-attachments/assets/6f0176a1-aad2-4ae4-9dc7-96163c219dcb)
+
+---
 ### Step and Procedure for handson
 
 - Step 1 : Check Reference and Variable
