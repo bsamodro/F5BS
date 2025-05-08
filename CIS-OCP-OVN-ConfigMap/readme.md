@@ -6,7 +6,7 @@
 ### Step and Procedure for handson
 
 
-1. [Check OCP Readiness (Probably can be discarded , if the cluster is ready)](OCP-Preparation.md)
+1. [Check OCP Readiness](OCP-Preparation.md)
 
 2. [Prepare BigIP](BigIP-Preparation.md)
 
