@@ -13,13 +13,14 @@ It is not recommended to set the log level to DEBUG, as it generates excessive l
   ```bash
   oc get pods -n kube-system
   ```
-  Output (no needd to copy)
+  Output (no need to copy)
   ```
   NAME                          READY   STATUS    RESTARTS   AGE
   cis-bigip1-5cf4f8d9bc-xlwts   1/1     Running   0          3h3m
   cis-bigip2-855455999b-rxvgw   1/1     Running   0          3h3m
   ```
 - check latest log from CIS Pod (see pod name from above command)
+- oc logs <pod name> | tail -10
   ```bash
   oc logs cis-bigip1-5cf4f8d9bc-xlwts -n kube-system | tail -10
   ```
