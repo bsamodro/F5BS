@@ -139,6 +139,7 @@ You can also check this type of error in the BIG-IP logs for further details.
 
 - Use the Web Shell link of bigip1
 
+<img width="370" alt="Image" src="https://github.com/user-attachments/assets/538e882f-6960-4d45-9268-7bdba5e634e4" />
 
 - Check restnode log
   ```bash
