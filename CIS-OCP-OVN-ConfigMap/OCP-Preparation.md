@@ -9,7 +9,7 @@
 
 Use the Web Shell link of the ocp-provisioner node
 
-<img width="480" alt="Image" src="https://github.com/user-attachments/assets/f400a813-056a-4da1-bd01-89bc2be09e90" />
+<img width="454" alt="Image" src="https://github.com/user-attachments/assets/93ce4bbe-80b8-40f5-89da-3de378a97e3e" />
 
 - Login as cloud-user
   ```
