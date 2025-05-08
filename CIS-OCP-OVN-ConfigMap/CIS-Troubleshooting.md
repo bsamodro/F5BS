@@ -89,6 +89,7 @@ Steps to Validate in VS Code
     ...
   }
   ```
+  or use sample [myValidation.json](SampleAS3Validation/myValidation.json)
 4. Select View → Problems to view any schema validation errors.
 <img width="1071" alt="Image" src="https://github.com/user-attachments/assets/50237aeb-d589-46df-a0fa-cecd675ac82f" />
 
