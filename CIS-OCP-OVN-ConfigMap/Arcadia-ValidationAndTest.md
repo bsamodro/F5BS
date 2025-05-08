@@ -23,6 +23,8 @@ Use the TMUI link of the both bigip node : bigip1 and bigip2
 
 Use the FIREFOX link of the Ubuntu-Client Node
 
+<img width="392" alt="Image" src="https://github.com/user-attachments/assets/b657b4bd-4d2e-437e-a26d-d22170300287" />
+
 - Type https://arcadia.f5demo/ in address bar and click login
 
 <img width="1681" alt="Image" src="https://github.com/user-attachments/assets/0b4ba679-fd01-4897-b108-9ea50c158faa" />
