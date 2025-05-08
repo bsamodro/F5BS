@@ -5,23 +5,17 @@
 ---
 ### Step and Procedure for handson
 
-- Step 1 : Check Reference and Variable
-https://github.com/bsamodro/F5BS/tree/main/CIS-OCP-OVN-ConfigMap
 
-- Step 2 : Check OCP Readiness (Probably can be discarded , if the cluster is ready)
-  https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/OCP-Preparation.md
+1. [Check OCP Readiness (Probably can be discarded , if the cluster is ready)](OCP-Preparation.md)
 
-- Step 3 : Prepare BigIP
-  https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/BigIP-Preparation.md
+2. [Prepare BigIP](BigIP-Preparation.md)
 
-- Step 4 : Deploy CIS
-  https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Deployment.md
+3. [Deploy CIS](CIS-Deployment)
 
-- Step 5 : Test and Validate Arcadia Apps
-  https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/Arcadia-ValidationAndTest.md
+4. [Test and Validate Arcadia Apps](Arcadia-ValidationAndTest.md)
 
-- Step 6 (optional) : Troubleshoot CIS 
-  https://github.com/bsamodro/F5BS/blob/main/CIS-OCP-OVN-ConfigMap/CIS-Troubleshooting.md
+5. [(optional)Troubleshoot CIS](CIS-Troubleshooting.md)
+
 ---
 ### Environment
 
