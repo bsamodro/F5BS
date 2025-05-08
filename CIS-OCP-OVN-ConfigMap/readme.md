@@ -14,7 +14,7 @@
 
 4. [Test and Validate Arcadia Apps](Arcadia-ValidationAndTest.md)
 
-5. [(optional)Troubleshoot CIS](CIS-Troubleshooting.md)
+5. [(OPTIONAL)Troubleshoot CIS](CIS-Troubleshooting.md)
 
 ---
 ### Environment
