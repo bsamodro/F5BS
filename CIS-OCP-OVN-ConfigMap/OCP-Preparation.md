@@ -7,7 +7,7 @@
 ### Prepare Working Directory to run next steps
 
 
-Use the Web Shell link of the ocp-provisioner node
+#### Use the Web Shell link of the ocp-provisioner node and Please keep this window open until the end of the lab
 
 <img width="454" alt="Image" src="https://github.com/user-attachments/assets/93ce4bbe-80b8-40f5-89da-3de378a97e3e" />
 
@@ -28,7 +28,6 @@ Use the Web Shell link of the ocp-provisioner node
     -v ~/firefox-saas:/config:rw \
     jlesage/firefox
   ```
-### Please keep this window open until the end of the lab
 
 Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). 
 
