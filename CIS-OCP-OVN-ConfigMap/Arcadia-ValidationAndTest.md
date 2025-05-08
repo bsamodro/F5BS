@@ -42,4 +42,4 @@ Use the TMUI link of the active bigip Node : bigip1 or bigip2
 <img width="1681" alt="Image" src="https://github.com/user-attachments/assets/20d2f0e6-a1b4-43b8-bde4-a1a847380d24" />
 
 ---
-[🏠 Home](readme.md) | [➡️ Next](CIS-Troubleshooting.md)
+[⬅️ Previous](CIS-Deployment.md) [🏠 Home](readme.md) | [➡️ Next](CIS-Troubleshooting.md)
