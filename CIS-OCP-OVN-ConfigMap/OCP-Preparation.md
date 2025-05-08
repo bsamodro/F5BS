@@ -32,7 +32,7 @@ Use the Web Shell link of the ocp-provisioner node
 
 Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). 
 
-<img width="476" alt="Image" src="https://github.com/user-attachments/assets/1ea447f9-ad0b-48eb-8281-beaa4e6a5932" />
+<img width="392" alt="Image" src="https://github.com/user-attachments/assets/a0f94c0d-718c-4baf-86d5-97448fcfb551" />
 
 ---
 
