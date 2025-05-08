@@ -137,7 +137,9 @@ How to Simulate NonExist Object Validation Error
 
 You can also check this type of error in the BIG-IP logs for further details.
 
-- Use the SSH link of bigip1
+- Use the Web Shell link of bigip1
+
+
 - Check restnode log
   ```bash
   tail -3 /var/log/restnoded/restnoded.log
