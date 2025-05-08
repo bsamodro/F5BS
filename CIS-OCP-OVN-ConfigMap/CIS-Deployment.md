@@ -81,3 +81,6 @@
    ```bash
    oc create -f  Arcadia/arcadia-cm.yaml
    ```
+
+---
+[🏠 Home](readme.md) | [➡️ Next](Arcadia-ValidationAndTest.md)
