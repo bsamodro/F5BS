@@ -44,20 +44,20 @@
   cp deployments/common/nginx-config.yaml deployments/common/nginx-config.yaml_ori
   vi deployments/common/nginx-config.yaml #
   ```
-  Apend these line and clode vi editor [ Esc :wq ]
+  - Apend these line and clode vi editor [ Esc :wq ]
   ```
     proxy-protocol: "True"
     real-ip-header: "proxy_protocol"
     set-real-ip-from: "0.0.0.0/0"
   ```
 
-  - Deploy config map and ingress clas
+- Deploy config map and ingress clas
   ```
   kubectl apply -f deployments/common/nginx-config.yaml
   kubectl apply -f deployments/common/ingress-class.yaml
   ```
 
-  - Create core custom resources
+- Create core custom resources
   ```
   kubectl apply -f config/crd/bases/k8s.nginx.org_virtualservers.yaml
   kubectl apply -f config/crd/bases/k8s.nginx.org_virtualserverroutes.yaml
@@ -66,19 +66,19 @@
   kubectl apply -f config/crd/bases/k8s.nginx.org_globalconfigurations.yaml
   ```
 
-  - # Update  NGINX Ingress Controller - Using a DaemonSet
+- Update  NGINX Ingress Controller - Using a DaemonSet
   ```
   cp deployments/daemon-set/nginx-ingress.yaml deployments/daemon-set/nginx-ingress.yaml_ori
   vi deployments/daemon-set/nginx-ingress.yaml 
   ```
-  # Before (replace this line, no need to copy)
+  - Before (replace this line, no need to copy)
   ```
           args:
           - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
           - -report-ingress-status
           - -external-service=nginx-ingress
   ```
-  # Change with this then close vi editor
+  - Change with this then close vi editor
   ```
           args:
           - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
@@ -88,16 +88,16 @@
          # - -external-service=nginx-ingress
   ```
 
-  - Deploy NGINX Ingress Controller
+- Deploy NGINX Ingress Controller
   ```
   kubectl apply -f deployments/daemon-set/nginx-ingress.yaml
   ```
 
-  - Create Cluster IP NGINX Ingress Service
+- Create Cluster IP NGINX Ingress Service
   ```
   vi deployments/service/nginx-service.yaml
   ```
-  # Insert this line
+  - Insert this line
   ```
   apiVersion: v1
   kind: Service
