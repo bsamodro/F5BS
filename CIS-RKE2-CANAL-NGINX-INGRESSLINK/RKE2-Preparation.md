@@ -3,7 +3,7 @@
 #### This document explains how to prepare RKE2 and NGINX 
 ---
 
-### Prepare Working Directory to run next steps
+### RKE2 cluster Preparation - NGINX IC
 
 
 #### Use the Web Shell link of the RKE2-Master1 node and Please keep this window open until the end of the lab
@@ -97,7 +97,7 @@
   ```
   vi deployments/service/nginx-service.yaml
   ```
-  - Insert this line
+  - Insert this line then close vi editor
   ```
   apiVersion: v1
   kind: Service
@@ -119,4 +119,26 @@
     selector:
       app: nginx-ingress
     type: ClusterIP
+  ```
+
+- Deploy NGINX Service
+  ```
+  kubectl apply -f deployments/service/nginx-service.yaml
+  ```
+
+- Confirm NGINX Ingress Controller is running
+  ```
+  kubectl get pods --namespace=nginx-ingress
+  ```
+  ```
+  kubectl get svc --namespace=nginx-ingress
+  ```
+
+----
+
+### RKE2 cluster Preparation - CIS Module
+  
+
+
+  
   
