@@ -42,11 +42,81 @@
 - Update config map wuth 3 lines
   ```
   cp deployments/common/nginx-config.yaml deployments/common/nginx-config.yaml_ori
+  vi deployments/common/nginx-config.yaml #
   ```
   Apend these line and clode vi editor [ Esc :wq ]
-  
   ```
     proxy-protocol: "True"
     real-ip-header: "proxy_protocol"
     set-real-ip-from: "0.0.0.0/0"
   ```
+
+  - Deploy config map and ingress clas
+  ```
+  kubectl apply -f deployments/common/nginx-config.yaml
+  kubectl apply -f deployments/common/ingress-class.yaml
+  ```
+
+  - Create core custom resources
+  ```
+  kubectl apply -f config/crd/bases/k8s.nginx.org_virtualservers.yaml
+  kubectl apply -f config/crd/bases/k8s.nginx.org_virtualserverroutes.yaml
+  kubectl apply -f config/crd/bases/k8s.nginx.org_transportservers.yaml
+  kubectl apply -f config/crd/bases/k8s.nginx.org_policies.yaml
+  kubectl apply -f config/crd/bases/k8s.nginx.org_globalconfigurations.yaml
+  ```
+
+  - # Update  NGINX Ingress Controller - Using a DaemonSet
+  ```
+  cp deployments/daemon-set/nginx-ingress.yaml deployments/daemon-set/nginx-ingress.yaml_ori
+  vi deployments/daemon-set/nginx-ingress.yaml 
+  ```
+  # Before (replace this line, no need to copy)
+  ```
+          args:
+          - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
+          - -report-ingress-status
+          - -external-service=nginx-ingress
+  ```
+  # Change with this then close vi editor
+  ```
+          args:
+          - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
+          - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
+          - -ingresslink=nginx-ingress
+          - -report-ingress-status
+         # - -external-service=nginx-ingress
+  ```
+
+  - Deploy NGINX Ingress Controller
+  ```
+  kubectl apply -f deployments/daemon-set/nginx-ingress.yaml
+  ```
+
+  - Create Cluster IP NGINX Ingress Service
+  ```
+  vi deployments/service/nginx-service.yaml
+  ```
+  # Insert this line
+  ```
+  apiVersion: v1
+  kind: Service
+  metadata:
+    name: nginx-ingress-ingresslink
+    namespace: nginx-ingress
+    labels:
+      app: nginx-ingress
+  spec:
+    ports:
+      - port: 80
+        targetPort: 80
+        protocol: TCP
+        name: http
+      - port: 443
+        targetPort: 443
+        protocol: TCP
+        name: https
+    selector:
+      app: nginx-ingress
+    type: ClusterIP
+  
