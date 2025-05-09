@@ -31,16 +31,11 @@ Latest IngressLink Depeloyment Guide
 - https://clouddocs.f5.com/containers/latest/userguide/ingresslink/
 - https://docs.nginx.com/nginx-ingress-controller/installation/integrations/f5-ingresslink/
 
-
 Latest NGINX IC Manifest Deployment Guide
-https://docs.nginx.com/nginx-ingress-controller/installation/installing-nic/installation-with-manifests/
+- https://docs.nginx.com/nginx-ingress-controller/installation/installing-nic/installation-with-manifests/
 
-https://docs.nginx.com/nginx-ingress-controller/installation/integrations/f5-ingresslink/)
 latest CIS release notes and compatibility with AS3 : 
 - https://clouddocs.f5.com/containers/latest/reference/release-notes.html
 - https://clouddocs.f5.com/containers/latest/userguide/what-is.html#container-ingress-service-compatibility
-
-How to validade AS3 in config map
-- https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
 
 ---
