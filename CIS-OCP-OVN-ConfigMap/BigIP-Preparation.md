@@ -34,7 +34,7 @@ Therefore, we need to prepare a dedicated partition on BIG-IP for this purpose. 
 <img width="421" alt="Image" src="https://github.com/user-attachments/assets/66c707dd-29d3-45ae-99ea-908a1fbfd034" />
 
 - Add opp1-routing , select route domain rd-10 -> click Finished
-<img width="1374" height="718" alt="Image" src="https://github.com/user-attachments/assets/a4a6ef91-4dd9-4a3d-b70e-4c472bce7a7b" />
+<img width="1023" height="686" alt="Image" src="https://github.com/user-attachments/assets/6a8513de-2c85-465b-bf12-6d3ca8eeb859" />
 
 #### Notes : we can add partition manually on pair node or sync config from configured node
 
