@@ -24,13 +24,13 @@
 | ocp-provisioner    | 10.1.1.4   | firefox | f5admin  | f5admin      |
 | Ubuntu Client      | 10.1.1.14  | firefox | <No Password> | <No Password> |
 | bigip1.f5demo.id   | 10.1.1.5   | TMUI    | admin    | f5demo#1     |
-| bigip2.f5demo.id   | 10.1.1.15  | TMUI    | admin    | f5demo#1     |
+| bigip2.f5demo.id   | 10.1.1.11  | TMUI    | admin    | f5demo#1     |
 
 
 - TMOS Version : 17.1
-- Openshift Version : 4.16.15
+- Openshift Version : 4.18.17
 - CIS Version : 2.19.1
-- AS3 Version : 3.54.0
+- AS3 Version : 3.54.2
 
 ---
 
@@ -45,6 +45,9 @@ latest CIS release notes and compatibility with AS3 :
 
 How to validade AS3 in config map
 - https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/userguide/validate.html
+
+Latest CIS stable version in OCP
+- https://catalog.redhat.com/software/containers/f5networks/cntr-ingress-svcs/5ec7ad05ecb5246c0903f4cf?container-tabs=security
 
 ---
 [➡️ Next](OCP-Preparation.md)
