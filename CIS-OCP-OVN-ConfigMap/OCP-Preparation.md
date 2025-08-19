@@ -22,11 +22,14 @@
   ```
 - Create new firefox docker
   ```bash
+  
   docker run -d \
-    --name=firefox \
-    -p 5800:5800 \
-    -v ~/firefox-saas:/config:rw \
-    jlesage/firefox
+  --name=firefox \
+  -p 5800:5800 \
+  -v ~/firefox-saas:/config:rw \
+  --restart=always \
+  --add-host arcadia.f5demo:10.1.10.101 \
+  jlesage/firefox
   ```
 
 Use the FIREFOX link of the ocp-provisioner node. With this you will be running a docker firefox remotely inside your browser, from there you can browse to the OpenShift UI URLs (or any other). 
