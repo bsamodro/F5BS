@@ -7,6 +7,7 @@
 ### Installing CIS Manually in OCP Cluster
 
 1. Go to ocp-provisioner WebShell tab in chrome  and go to working Directory
+   
    ```bash
    cd /home/cloud-user/CIS-Workshop
    ```
@@ -30,7 +31,7 @@
    ```bash
    cat CIS-Deployment/cis-bigip1.yaml
    ```
-6. Apply CIS Deploymment config for bigip1 and bigip2
+7. Apply CIS Deploymment config for bigip1 and bigip2
    ```bash
    oc create -f  CIS-Deployment/cis-bigip1.yaml
    
