@@ -21,8 +21,7 @@
 
 | Hostname           | HostIP     | Access  | Username | Password     |
 |--------------------|------------|---------|----------|--------------|
-| ocp-provisioner    | 10.1.1.4   | firefox | f5admin  | f5admin      |
-| Ubuntu Client      | 10.1.1.14  | firefox | <No Password> | <No Password> |
+| ocp-provisioner    | 10.1.1.4   | firefox |          |              |
 | bigipA.f5demo.id   | 10.1.1.5   | TMUI    | admin    | f5demo#1     |
 | bigipB.f5demo.id   | 10.1.1.11  | TMUI    | admin    | f5demo#1     |
 
