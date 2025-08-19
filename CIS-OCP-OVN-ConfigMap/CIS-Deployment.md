@@ -7,7 +7,7 @@
 ### Installing CIS Manually in OCP Cluster
 
 1. Go to ocp-provisioner WebShell tab in chrome  and go to working Directory
-   
+   <img width="695" height="343" alt="Image" src="https://github.com/user-attachments/assets/d3824b9d-c5b8-4914-a21c-c80298e50365" />
    ```bash
    cd /home/cloud-user/CIS-Workshop
    ```
