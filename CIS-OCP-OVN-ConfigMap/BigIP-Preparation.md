@@ -6,7 +6,7 @@
 
 ### AS3 Module Validation
 
-Use the TMUI link of the both bigip node : bigip1 and bigip2
+Use the TMUI link of the both bigip node : bigipA and bigipB
 
 <img width="370" alt="Image" src="https://github.com/user-attachments/assets/f87857b8-d526-433a-b9cd-a97348966f40" />
 
