@@ -24,7 +24,7 @@
 | ocp-provisioner    | 10.1.1.4   | firefox | f5admin  | f5admin      |
 | Ubuntu Client      | 10.1.1.14  | firefox | <No Password> | <No Password> |
 | bigip1.f5demo.id   | 10.1.1.5   | TMUI    | admin    | f5demo#1     |
-| bigip2.f5demo.udf  | 10.1.1.15  | TMUI    | admin    | f5demo#1     |
+| bigip2.f5demo.id   | 10.1.1.15  | TMUI    | admin    | f5demo#1     |
 
 
 - TMOS Version : 17.1
