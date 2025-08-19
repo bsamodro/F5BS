@@ -33,7 +33,7 @@ Therefore, we need to prepare a dedicated partition on BIG-IP for this purpose. 
 - Click System -> Select Users -> Select Partition List -> Click "Plus" Sign
 <img width="421" alt="Image" src="https://github.com/user-attachments/assets/66c707dd-29d3-45ae-99ea-908a1fbfd034" />
 
-- Add opp1-routing -> click Finished
+- Add opp1-routing , select route domain 123 -> click Finished
 <img width="1681" alt="Image" src="https://github.com/user-attachments/assets/c993c6c3-16cf-462f-bada-4c21d8249533" />
 
 #### Notes : we can add partition manually on pair node or sync config from configured node
