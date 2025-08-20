@@ -55,7 +55,7 @@ worker-1.ocp.f5-udf.com   Ready    worker                        688d   v1.29.8+
 worker-2.ocp.f5-udf.com   Ready    worker                        688d   v1.29.8+f10c92d
 ```
 
-### If all node are ready , jump to next step : [BigIP Preparation](BigIP-Preparation.md)
+### If all node are ready , klik floowing link : [BigIP Preparation](BigIP-Preparation.md)
 
 ----
 
