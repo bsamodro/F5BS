@@ -1,3 +1,5 @@
+## CIS - OpenShift Workshop - Cluster Recovery
+
 Use this procedure **only on first boot**, or when the cluster fails to bring nodes into `Ready` state.
 
 ```bash
