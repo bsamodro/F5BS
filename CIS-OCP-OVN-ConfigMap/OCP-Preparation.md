@@ -56,6 +56,7 @@ worker-2.ocp.f5-udf.com   Ready    worker                        688d   v1.29.8+
 ```
 
 ### If all node are ready , Click following link : [BigIP Preparation](BigIP-Preparation.md)
+### If some/all node are not ready , Click following link : [Cluster Recovery](Cluster-Recovery.md)
 
 ----
 
