@@ -27,6 +27,7 @@ Click Create
 <img width="1467" height="244" alt="Image" src="https://github.com/user-attachments/assets/8dd05f02-508d-4e2f-b357-1890c5e475cc" />
 
 5. Add detail
+
 Policy Name :
 ```
 sentence-api-security-waf
