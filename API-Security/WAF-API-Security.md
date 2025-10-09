@@ -41,3 +41,4 @@ Upload File : "choose your downoladed file from first step"
 
 Click Save
 <img width="1065" height="715" alt="Image" src="https://github.com/user-attachments/assets/ec080821-7d34-4f4f-a8d4-f7f3c7e8a5f0" />
+<img width="1463" height="307" alt="Image" src="https://github.com/user-attachments/assets/f577ba3e-cb94-4fb4-ab4e-e9254cce052f" />
