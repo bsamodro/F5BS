@@ -1,10 +1,14 @@
 ## Preparation
 
-#### This document explains how to prepare API Security Lan
+#### This document is checklist for Lab Preparation
 
 ---
 
-### Cek if api sentence application runing in cluter
+### Check Deployment
+
+1. Make sure all node are green before starting lab
+
+2. 
 
 1. Go to k8s WebShell tab in chrome 
    ```bash
