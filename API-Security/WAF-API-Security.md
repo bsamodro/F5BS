@@ -52,6 +52,10 @@ Click Save
 
 Open VS List -> Click Security ->  Select Enabled in "Application Security Policy" -> Choose Policy "sentence-api-security-waf" -> Ennable log profile and add Log all request
 
+<img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/ae952c0a-2cce-4981-8ee6-4a4dffe5e83f" />
+
+<img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/d1ff73fc-a566-4cfd-a681-1a703457a231" />
+
 <img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/15cdc940-018b-4acc-8ec8-4d68a2375f3b" />
 
 
