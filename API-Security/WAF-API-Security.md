@@ -45,5 +45,7 @@ Click Save
 
 6. Validate Positif Security (URL) has been added
 
+<img width="736" height="786" alt="Image" src="https://github.com/user-attachments/assets/cf643e48-1e2d-4638-ad2a-e7b81058073c" />
+<img width="1458" height="681" alt="Image" src="https://github.com/user-attachments/assets/91193fee-9d26-42e3-b03c-392d20c3f864" />
 
    
