@@ -61,9 +61,7 @@ Open VS List -> Click Security ->  Select Enabled in "Application Security Polic
 ---
 
 ### Test Waf Policy
-1. Download following file to your laptop
-   
-2. Click Access in "bigIP" node , choose TMUI
+1. Click Access in "Client" node , choose WebShell
 <img width="473" height="246" alt="Image" src="https://github.com/user-attachments/assets/1586301c-2719-4db6-9e9c-8dc628531092" />
 
 3. Log In using
