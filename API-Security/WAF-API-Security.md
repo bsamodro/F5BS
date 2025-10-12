@@ -62,15 +62,12 @@ Open VS List -> Click Security ->  Select Enabled in "Application Security Polic
 
 ### Test Waf Policy
 1. Click Access in "Client" node , choose WebShell
-<img width="473" height="246" alt="Image" src="https://github.com/user-attachments/assets/1586301c-2719-4db6-9e9c-8dc628531092" />
+<img width="506" height="536" alt="Image" src="https://github.com/user-attachments/assets/6ad544fd-2eba-4058-9ce9-6986bc572f1a" />
 
-3. Log In using
+3. Log In using Ubuntu with this command
 User:
 ```
-admin
+su - ubuntu
 ```
-Password:
-```
-f5demo#1
-```
+
    
