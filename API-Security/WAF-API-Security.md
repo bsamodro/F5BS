@@ -58,5 +58,21 @@ Open VS List -> Click Security ->  Select Enabled in "Application Security Polic
 
 <img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/15cdc940-018b-4acc-8ec8-4d68a2375f3b" />
 
+---
 
+### Test Waf Policy
+1. Download following file to your laptop
+   
+2. Click Access in "bigIP" node , choose TMUI
+<img width="473" height="246" alt="Image" src="https://github.com/user-attachments/assets/1586301c-2719-4db6-9e9c-8dc628531092" />
+
+3. Log In using
+User:
+```
+admin
+```
+Password:
+```
+f5demo#1
+```
    
