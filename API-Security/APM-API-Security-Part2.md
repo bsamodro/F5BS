@@ -13,3 +13,11 @@
 2.  Click Access -> API Protection -> Profile , Wait until profile list open then click Create
 <img width="1709" height="685" alt="Image" src="https://github.com/user-attachments/assets/515da4b8-664b-41f7-ae74-6bac77d0e46e" />
 
+3. Fill parameter as follow
+| Properties         | Value                                     | 
+|--------------------|-------------------------------------------|
+| Name               | sentence-api-protection                   |
+| Open API File      | Choose File JSON that has been downloaded |
+| Authentication     | OAuth 2.0 -> Add                          |
+Click Save
+<img width="1226" height="430" alt="Image" src="https://github.com/user-attachments/assets/31b5cac4-a9ea-45af-9423-a2f63686b917" />
