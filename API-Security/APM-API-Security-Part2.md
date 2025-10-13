@@ -27,4 +27,30 @@ Click Save
 4. View path URL has been loaded
 <img width="1463" height="678" alt="Image" src="https://github.com/user-attachments/assets/5dede798-87a7-41a2-ba38-eb3dcf0d46f8" />
 
+5. Edit Default Response
+Click Response and Click "sentence-api-protection auto response1"
+
+Type "API Access Error" or Another Error Message in Body
+
+Click Edit and Save
+
+5. Edit Response 2
+Click Response and Click "sentence-api-protection auto response2"
+
+Type "API Auth Error" or Another Error Message in Body
+
+Click Edit and Save
+
+6. Edit Response 2
+Click Response and Click "sentence-api-protection auto response api rate limiting3"
+
+Change Key Value to 
+```
+%{subsession.oauth.scope.last.jwt.sub}
+```
+We Plan to test rate limit per User
+
+Click Edit and Save
+
+
 
