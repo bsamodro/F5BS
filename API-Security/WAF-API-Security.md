@@ -64,10 +64,16 @@ Open VS List -> Click Security ->  Select Enabled in "Application Security Polic
 1. Click Access in "Client" node , choose WebShell
 <img width="506" height="536" alt="Image" src="https://github.com/user-attachments/assets/6ad544fd-2eba-4058-9ce9-6986bc572f1a" />
 
-3. Log In using Ubuntu with this command
-User:
+2. Log In using Ubuntu with this command
 ```
 su - ubuntu
 ```
+3. Try this API call , result should be good because API is valid
+```
+curl -H "Content-Type: application/json;charset=UTF-8" http://api.sentence.com/api/animals
+```
+4. Try unknown API call , result should be error because API is unknown (not included in swagger)
+```
+curl -H "Content-Type: application/json;charset=UTF-8" http://api.sentence.com/api/colors
+```
 
-   
