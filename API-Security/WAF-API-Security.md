@@ -76,4 +76,13 @@ curl -H "Content-Type: application/json;charset=UTF-8" http://api.sentence.com/a
 ```
 curl -H "Content-Type: application/json;charset=UTF-8" http://api.sentence.com/api/colors
 ```
+<img width="1029" height="321" alt="Image" src="https://github.com/user-attachments/assets/2ed91777-8eb3-4d70-becf-0d1367b90a6f" />
+
+5. Open event log in the big ip check error message. Error result should be illegal URL
+
+<img width="580" height="457" alt="Image" src="https://github.com/user-attachments/assets/a2145788-ea1e-4987-8178-4034afec8919" />
+
+<img width="1117" height="457" alt="Image" src="https://github.com/user-attachments/assets/e2780b41-33bf-4ac5-b3a2-0e852ce55056" />
+
+
 
