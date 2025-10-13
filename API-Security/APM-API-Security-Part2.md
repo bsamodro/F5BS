@@ -61,5 +61,12 @@ We Plan to test rate limit per User
 Click Edit and Save
 <img width="1463" height="777" alt="Image" src="https://github.com/user-attachments/assets/0ac42d14-f59e-49d4-90fc-bf3d19fe1ffa" />
 
+7. Edit Per Request Policy
+Click Access Control and Per Request Policy - Edit
+<img width="1463" height="722" alt="Image" src="https://github.com/user-attachments/assets/cc209bf4-8380-4373-8142-968159e7bbb8" />
+Update Oauth Scope
+<img width="945" height="826" alt="Image" src="https://github.com/user-attachments/assets/f1184a20-6843-4d78-8cda-e7e6f6a10993" />
+refer to following UI 
+<img width="1329" height="826" alt="Image" src="https://github.com/user-attachments/assets/98d6f15e-1e4d-4376-b617-f8b92d77d30b" />
 
 
