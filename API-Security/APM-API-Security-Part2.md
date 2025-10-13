@@ -71,8 +71,13 @@ refer to following UI
 
 8. Assign New API Protection Profile to VS
 Click Virtual Server List under Local Traffic Menu, choose sentence-vs
+<img width="1442" height="826" alt="Image" src="https://github.com/user-attachments/assets/2a0bc9f4-cb6d-4202-a0b3-6cbb01df9c52" />
+
 
 Change API Protection Profile and Update
+<img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/4c8fce41-fda1-49d7-adef-6c7e3a52d99f" />
+
 
 9. Update VS Security policies , change Application Security Policy to sentence-api-protection
-
+<img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/b5095192-03b7-4a05-ba78-6e4b5d6887e3" />
+<img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/25640bc5-1ffd-48d1-bed7-8b843d981c7a" />
