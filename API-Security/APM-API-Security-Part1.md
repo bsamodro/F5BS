@@ -17,10 +17,9 @@ for i in `ls *json`; do echo $i; cat $i; echo ;done
 ```
 3. Generate base64 Key & copy the value to notepad, this will be used for export jwt in big ip
 ```
-cat key.txt | base64 | tr '+/' '-_' | tr -d '='
+echo -n f5demo | base64 | tr '+/' '-_' | tr -d '='
 ```
-```
-ZjVkZW1vCg
+ZjVkZW1v
 ```
 
 ---
@@ -43,7 +42,7 @@ c. Fill the parameter using following value, and click save after finished
 | Type               | Octet             |
 | Signing Algorithm  | HS256             |
 | Encoding Format    | Base64url         |
-| Shared Secret      | ZjVkZW1vCg        |
+| Shared Secret      | ZjVkZW1v          |
 
 <img width="701" height="420" alt="Image" src="https://github.com/user-attachments/assets/5da9859b-2946-487b-81c9-12f21182d39a" />
 <img width="1484" height="226" alt="Image" src="https://github.com/user-attachments/assets/93347adc-9920-424c-853c-9451d2add204" />
