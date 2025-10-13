@@ -52,7 +52,7 @@ Click Save
 
 7. Assign WAF Policy to VS
 
-Open VS List -> Click Security ->  Select Enabled in "Application Security Policy" -> Choose Policy "sentence-api-security-waf" -> Ennable log profile and add Log all request
+Click "Local Traffic" -> Virtual Servers -> Virtual Server List -> Choose sentence-vs -> Click Security -> Policies ->  Select Enabled in "Application Security Policy" -> Choose Policy "sentence-api-security-waf" -> Ennable log profile and add Log all request
 
 <img width="1458" height="654" alt="Image" src="https://github.com/user-attachments/assets/ae952c0a-2cce-4981-8ee6-4a4dffe5e83f" />
 
