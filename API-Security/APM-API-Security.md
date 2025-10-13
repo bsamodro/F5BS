@@ -1,6 +1,6 @@
-## BigIP APM API Security Deployment
+## BigIP APM API Security Deployment - Part 1
 
-#### This document explain how to deploy API Security using APM Protection Profile in APM
+#### This document explain how to prepare JWT before use it for API Validation in APM
 
 ---
 
