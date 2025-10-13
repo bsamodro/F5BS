@@ -32,7 +32,6 @@ ZjVkZW1vCg
 | Name               | f5demo-jwk-octet  |
 | JWT Type           | JWS               |
 | Type               | Octet             |
-| Type               | Octet             |
 | Signing Algorithm  | HS256             |
 | Encoding Format    | Base64url         |
 | Shared Secret      | ZjVkZW1vCg        |
