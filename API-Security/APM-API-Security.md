@@ -76,7 +76,7 @@ a. Click Access -> Federation -> oAuth Client / Resource Server -> Provider
 b. Click Create
 <img width="1480" height="459" alt="Image" src="https://github.com/user-attachments/assets/fbba2575-a28c-4e4c-8ae9-a875a530043b" />
 
-c. Fill the parameter using following value, unset "Use Auto JWT" check button
+c. Fill the parameter using following value, unset "Use Auto JWT" check button 
 <img width="1468" height="670" alt="Image" src="https://github.com/user-attachments/assets/fb5aec55-71b7-4afa-a509-bec1a491cb75" />
 
 | Properties         | Value                    | 
@@ -84,7 +84,7 @@ c. Fill the parameter using following value, unset "Use Auto JWT" check button
 | Name               | f5demo-jwt-rs-provider   |
 | Type               | Custom                   |
 
-d. Choose  f5demo-jwt-token-config in JWT Dropbox
+d. Choose  f5demo-jwt-token-config in JWT Dropbox and Click Save
 <img width="1468" height="513" alt="Image" src="https://github.com/user-attachments/assets/3c17c590-7d92-43e8-8e25-eef0a2382e24" />
 <img width="1468" height="450" alt="Image" src="https://github.com/user-attachments/assets/6adaad62-5e1f-4727-bf57-59ba5b2a27ef" />
 
