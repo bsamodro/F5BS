@@ -88,5 +88,11 @@ d. Choose  f5demo-jwt-token-config in JWT Dropbox and Click Save
 <img width="1468" height="513" alt="Image" src="https://github.com/user-attachments/assets/3c17c590-7d92-43e8-8e25-eef0a2382e24" />
 <img width="1468" height="450" alt="Image" src="https://github.com/user-attachments/assets/6adaad62-5e1f-4727-bf57-59ba5b2a27ef" />
 
+4. Add New Provider List
 
-   
+a. Click Access -> Federation -> JSON Web Token -> Provider List -> Click Add
+<img width="557" height="732" alt="Image" src="https://github.com/user-attachments/assets/d3711084-7dba-485a-885b-051b2be1caff" />
+
+b. Change provider name to  f5demo-jwt-rs-provider -> Click Save
+<img width="651" height="256" alt="Image" src="https://github.com/user-attachments/assets/a6563128-995a-4bed-b3cc-271dbccf4eff" />
+<img width="1457" height="194" alt="Image" src="https://github.com/user-attachments/assets/58547681-434e-4516-9384-6e74e4dbcb6b" />
