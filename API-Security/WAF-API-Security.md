@@ -23,7 +23,7 @@ f5demo#1
 ```
 <img width="666" height="422" alt="Image" src="https://github.com/user-attachments/assets/23f43b2a-b5f4-48bd-8d33-1164b280f8d0" />
 
-4. Click Application Security -> Security Policies -> Policies List
+4. Click Security -> Application Security -> Security Policies -> Policies List
 <img width="982" height="838" alt="Image" src="https://github.com/user-attachments/assets/64df681b-ff42-4b09-9815-eedd742b138c" />
 Click Create
 <img width="1467" height="244" alt="Image" src="https://github.com/user-attachments/assets/8dd05f02-508d-4e2f-b357-1890c5e475cc" />
