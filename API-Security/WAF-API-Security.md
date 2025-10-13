@@ -84,5 +84,14 @@ curl -H "Content-Type: application/json;charset=UTF-8" http://api.sentence.com/a
 
 <img width="1117" height="457" alt="Image" src="https://github.com/user-attachments/assets/e2780b41-33bf-4ac5-b3a2-0e852ce55056" />
 
+6. Try an incorrect-schema API call — the request should fail because a required parameter is an integer but a string was provided.
 
+```
+curl --location --request DELETE 'http://api.sentence.com/api/adjectives/beautiful'
+```
+<img width="1117" height="68" alt="Image" src="https://github.com/user-attachments/assets/dbab9279-1004-4fd5-9450-3ccbf6972ee8" />
 
+7. Open event log in the big ip check error message. Error result should be Expected data type inconsistent
+<img width="1471" height="574" alt="Image" src="https://github.com/user-attachments/assets/a878c442-0748-41a6-a614-718eb67ff662" />
+
+---
