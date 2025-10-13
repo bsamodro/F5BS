@@ -69,4 +69,10 @@ Update Oauth Scope
 refer to following UI 
 <img width="1329" height="826" alt="Image" src="https://github.com/user-attachments/assets/98d6f15e-1e4d-4376-b617-f8b92d77d30b" />
 
+8. Assign New API Protection Profile to VS
+Click Virtual Server List under Local Traffic Menu, choose sentence-vs
+
+Change API Protection Profile and Update
+
+9. Update VS Security policies , change Application Security Policy to sentence-api-protection
 
