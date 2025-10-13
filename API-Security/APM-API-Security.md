@@ -57,5 +57,8 @@ a. Click Access -> Federation -> JSON Web Token -> Token Configuration
 | Name               | f5demo-jwt-token-config  |
 | Issuer             | f5demo.net               |
 | Access Token Expires In | 0                   |
+| Sighning Algoritm  | Allowed : HS256         |
+| JWK Allowed List   | Allowed : /Common/f5demo-jwk-octet   |
+
 
    
