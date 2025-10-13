@@ -51,14 +51,25 @@ c. Fill the parameter using following value, and click save after finished
 2. Add New JWT
 
 a. Click Access -> Federation -> JSON Web Token -> Token Configuration
+<img width="568" height="740" alt="Image" src="https://github.com/user-attachments/assets/6ece5cc2-4362-4b1c-b32c-d28790069803" />
+
+b. Click Create
+<img width="1466" height="189" alt="Image" src="https://github.com/user-attachments/assets/062bf4f3-14c3-42ff-bd44-be6d9e6a3ab1" />
+
+c. Fill the parameter using following value, and click save after finished
 
 | Properties         | Value                    | 
 |--------------------|--------------------------|
 | Name               | f5demo-jwt-token-config  |
 | Issuer             | f5demo.net               |
 | Access Token Expires In | 0                   |
-| Sighning Algoritm  | Allowed : HS256         |
+| Sighning Algoritm  | Allowed : HS256          |
 | JWK Allowed List   | Allowed : /Common/f5demo-jwk-octet   |
+
+<img width="682" height="796" alt="Image" src="https://github.com/user-attachments/assets/fedd15e0-9b30-46ab-b3d8-eb881859a370" />
+<img width="1455" height="192" alt="Image" src="https://github.com/user-attachments/assets/817fe409-fa5c-444f-b733-39add698c0af" />
+
+
 
 
    
