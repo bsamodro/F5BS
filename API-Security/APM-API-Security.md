@@ -94,5 +94,5 @@ a. Click Access -> Federation -> JSON Web Token -> Provider List -> Click Add
 <img width="557" height="732" alt="Image" src="https://github.com/user-attachments/assets/d3711084-7dba-485a-885b-051b2be1caff" />
 
 b. Add provider name  f5demo-jwt-rs-provider -> Click Save
-<img width="651" height="256" alt="Image" src="https://github.com/user-attachments/assets/a6563128-995a-4bed-b3cc-271dbccf4eff" />
+<img width="810" height="262" alt="Image" src="https://github.com/user-attachments/assets/c19163f6-b839-42e6-96d9-be0693fe1330" />
 <img width="1457" height="194" alt="Image" src="https://github.com/user-attachments/assets/58547681-434e-4516-9384-6e74e4dbcb6b" />
