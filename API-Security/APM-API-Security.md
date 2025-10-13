@@ -6,7 +6,7 @@
 
 ### Generate JWT Key and Token in ubuntu
 
-in this lab, we will not generate the JWT on the BIG-IP. Instead, we will create the JWT key and token on Ubuntu, then export them to the BIG-IP to be used as the source for API Authorization Control.
+in this lab, we will not generate the JWT on the BIG-IP. Instead, we will create the JWT key and token on Client Node, then export them to the BIG-IP to be used as the source for API Authorization Control.
 1. Go to Client Node Webshell Tab and go to jwt-preparation directory (user is ubuntu)
 ```
 cd jwt-preparation/
