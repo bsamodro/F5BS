@@ -26,6 +26,15 @@ ZjVkZW1vCg
 ---
 ### Deploy JWT Internal Authorizaion in BigIP
 
+1. Add New JWK :
+
+a. Click Access -> Federation -> JSON Web Token -> Key Configuration
+<img width="597" height="848" alt="Image" src="https://github.com/user-attachments/assets/5f654c1c-4c8b-4d90-8c18-48db505cbae5" />
+
+b. Click New
+<img width="1484" height="226" alt="Image" src="https://github.com/user-attachments/assets/49689ecd-be3c-4ef0-9dce-5403af83a127" />
+
+c. Fill the parameter using following value, and click save after finished
 
 | Properties         | Value             | 
 |--------------------|-------------------|
@@ -36,6 +45,8 @@ ZjVkZW1vCg
 | Encoding Format    | Base64url         |
 | Shared Secret      | ZjVkZW1vCg        |
 
+<img width="701" height="420" alt="Image" src="https://github.com/user-attachments/assets/5da9859b-2946-487b-81c9-12f21182d39a" />
+<img width="1484" height="226" alt="Image" src="https://github.com/user-attachments/assets/93347adc-9920-424c-853c-9451d2add204" />
 
 
 
