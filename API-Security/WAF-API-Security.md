@@ -63,7 +63,7 @@ Click "Local Traffic" -> Virtual Servers -> Virtual Server List -> Choose senten
 ---
 
 ### Test Waf Policy
-1. Click Access in "Client" node , choose WebShell
+1. Click Access under the Client node, then select WebShell. Keep this tab open until all lab procedures are completed.
 <img width="506" height="536" alt="Image" src="https://github.com/user-attachments/assets/6ad544fd-2eba-4058-9ce9-6986bc572f1a" />
 
 2. Log In using Ubuntu with this command
