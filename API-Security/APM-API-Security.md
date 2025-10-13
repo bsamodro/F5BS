@@ -48,6 +48,14 @@ c. Fill the parameter using following value, and click save after finished
 <img width="701" height="420" alt="Image" src="https://github.com/user-attachments/assets/5da9859b-2946-487b-81c9-12f21182d39a" />
 <img width="1484" height="226" alt="Image" src="https://github.com/user-attachments/assets/93347adc-9920-424c-853c-9451d2add204" />
 
+2. Add New JWT
 
+a. Click Access -> Federation -> JSON Web Token -> Token Configuration
+
+| Properties         | Value                    | 
+|--------------------|--------------------------|
+| Name               | f5demo-jwt-token-config  |
+| Issuer             | f5demo.net               |
+| Access Token Expires In | 0                   |
 
    
