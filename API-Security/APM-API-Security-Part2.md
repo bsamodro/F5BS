@@ -143,8 +143,5 @@ curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bea
 
 9. Choose "rate limit" in drop box "response as follow and click new entry , choose rate limit rule that we create previously and click "save"
 <img width="625" height="721" alt="Image" src="https://github.com/user-attachments/assets/49aea9e1-9164-46d4-928e-cae9a6d4fb46" />
-
+<img width="816" height="563" alt="Image" src="https://github.com/user-attachments/assets/b9fcba56-b462-4735-8fd0-15043597c79f" />
     
-    
-
-
