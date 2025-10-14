@@ -1,6 +1,6 @@
 ## BigIP APM API Security Deployment - Part 2
 
-#### This document explain how to deploy API Protection Profile and Assign it to VS
+#### This document explain how to deploy API Protection Profile ,  Assign it to VS, Test Expired JWT and Rate Limit per JWT User
 
 ---
 
