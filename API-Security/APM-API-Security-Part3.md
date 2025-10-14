@@ -1,4 +1,4 @@
-## BigIP APM API Security Deployment - Part 3
+<img width="805" height="717" alt="2_add_token_authentication_2" src="https://github.com/user-attachments/assets/9ba649a3-8630-4a66-ab32-e49a3a21d5f8" />## BigIP APM API Security Deployment - Part 3
 
 #### This document explain about how to mitigate one of BOLA (Broken Level Object Authentication) Attack
 ---
@@ -13,4 +13,17 @@
 
 3.  Click "Plus Button" in fromt of GET /api/animals/{id}
 <img width="832" height="604" alt="Image" src="https://github.com/user-attachments/assets/36c1ae72-0697-4ae1-836e-57c77e44a852" />
+
+4. Select "General Purpose" tab -> select "Empty" radio button -> click "Add Item"
+<img width="805" height="717" alt="Image" src="https://github.com/user-attachments/assets/01b5a515-539e-432f-92ab-9ee78ffeb1ab" />
+
+5. Change name in Properties tab
+   ```
+   checkUserAnimal
+   ```
+<img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/8f124a84-056c-4c00-8b51-90461728418c" />
+
+6. Click Branch Rules tab -> Add Branch Rule -> update name parameter to "successful" -> Click "change" in Expression
+<img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/52c5e657-0bf8-43a9-83f7-6a618a28f45b" />
+
 
