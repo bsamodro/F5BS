@@ -144,4 +144,26 @@ curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bea
 9. Choose "rate limit" in drop box "response as follow and click new entry , choose rate limit rule that we create previously and click "save"
 <img width="625" height="721" alt="Image" src="https://github.com/user-attachments/assets/49aea9e1-9164-46d4-928e-cae9a6d4fb46" />
 <img width="816" height="563" alt="Image" src="https://github.com/user-attachments/assets/b9fcba56-b462-4735-8fd0-15043597c79f" />
-    
+
+#### Test Part 2 : Rate limit for user Token1
+
+1. go to Client WebShell , login as ubuntu
+2. Prepare token
+```
+cd /home/ubuntu/jwt-preparation
+Token1=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve.json` 
+Token1exp=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve_expired.json` 
+Token2=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_tony.json`
+```
+3. Run the following command four times to test the rate limit for token1. The fourth request should be rejected
+```
+# Test Token 1
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token1"  http://api.sentence.com/api/animals
+```
+Run the following command once to test the API call using token2. The request should be accepted because the rate limit applies only to token1
+```
+# Test Token 2
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token2"  http://api.sentence.com/api/animals
+
+```
+---
