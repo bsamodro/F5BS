@@ -82,7 +82,7 @@ Change API Protection Profile and Update
 <img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/b5095192-03b7-4a05-ba78-6e4b5d6887e3" />
 <img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/25640bc5-1ffd-48d1-bed7-8b843d981c7a" />
 
-## Test Part 1 : No Token, Good Token and Exired Token
+#### Test Part 1 : No Token, Good Token and Exired Token
 
 1. go to Client WebShell , login as ubuntu
 2. Prepare token
