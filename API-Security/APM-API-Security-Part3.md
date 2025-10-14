@@ -26,4 +26,11 @@
 6. Click Branch Rules tab -> Add Branch Rule -> update name parameter to "successful" -> Click "change" in Expression
 <img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/52c5e657-0bf8-43a9-83f7-6a618a28f45b" />
 
+7. Type following text in Advanced box
+```
+expr {[regexp {^https?://[^/]+/api/animals/(\d+)/?} [mcget {perflow.category_lookup.result.url}] -> id] && ($id == [mcget {subsession.oauth.scope.last.jwt.animalID}])}
+```
+<img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/431c982c-9eec-4e11-a4df-12fbf7ce9b41" />
+Click "Save"
+<img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/9dfce6f2-18a1-487a-858a-fc489c769098" />
 
