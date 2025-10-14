@@ -31,6 +31,7 @@
 expr {[regexp {^https?://[^/]+/api/animals/(\d+)/?} [mcget {perflow.category_lookup.result.url}] -> id] && ($id == [mcget {subsession.oauth.scope.last.jwt.animalID}])}
 ```
 <img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/431c982c-9eec-4e11-a4df-12fbf7ce9b41" />
+
 Click "Save"
 <img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/9dfce6f2-18a1-487a-858a-fc489c769098" />
 
