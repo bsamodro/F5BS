@@ -15,7 +15,7 @@
 
 3. Fill parameter as follow
    
-| Properties         | Value                                     | 
+| Parameter          | Value                                     | 
 |--------------------|-------------------------------------------|
 | Name               | sentence-api-protection                   |
 | Open API File      | Choose File JSON that has been downloaded |
@@ -111,8 +111,40 @@ curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bea
 ### API Rate Linit Configuration & Testing
 
 1.  Click Access -> API Protection -> Profile
+<img width="976" height="796" alt="Image" src="https://github.com/user-attachments/assets/31743082-c016-4c74-bae6-95d845d95f75" />
 
 2.  Click sentence-api-protection
+<img width="1457" height="224" alt="Image" src="https://github.com/user-attachments/assets/653e26bf-72eb-4121-b80a-b191c721eb1d" />
 
-3.  In Rate Limiting Frame , click "Create" 
+3.  In Rate Limiting Frame , click "Create"
+<img width="1446" height="722" alt="Image" src="https://github.com/user-attachments/assets/55e44f18-c98d-4db2-b1ae-93f014d5afca" />
+
+4.  Fill fillowing parameter, and click "Add"
+
+| Parameter          | Value                             | 
+|--------------------|-----------------------------------|
+| Name               | api-ratelimit-rule 1              |
+| Selected Keys      | UserID                            |
+| Request Quota      | Check Enable , 3 rer per 2 min    |
+| Spike arrest       | UnCheck Enable                    |
+<img width="1446" height="396" alt="Image" src="https://github.com/user-attachments/assets/eef0cb45-a559-4d96-b0e0-69a3a821de9e" />
+
+5. Click "Save"
+<img width="1446" height="396" alt="Image" src="https://github.com/user-attachments/assets/68972b8d-b1a8-4752-bbb0-6a6ab6621c69" />
+
+6. Click Access Control and select Edit
+<img width="1446" height="396" alt="Image" src="https://github.com/user-attachments/assets/7e07ba06-f5ff-409f-9c47-f7547fb41f06" />
+
+7. Click "plus" button in front of "Get /api/animals/" => we want to limit request api /api/animals per user for 3 request per minute
+<img width="676" height="532" alt="Image" src="https://github.com/user-attachments/assets/31cb3ec5-a7bd-4fbe-9b3d-690953db6e2a" />
+
+8. Select tab "Traffic Management" and tick "API Rate Limit" radio Button
+<img width="816" height="721" alt="Image" src="https://github.com/user-attachments/assets/630f9c64-77fc-471a-95ee-1fba2c46a64c" />
+
+9. Choose "rate limit" in drop box "response as follow and click new entry , choose rate limit rule that we create previously and click "save"
+<img width="625" height="721" alt="Image" src="https://github.com/user-attachments/assets/49aea9e1-9164-46d4-928e-cae9a6d4fb46" />
+
+    
+    
+
 
