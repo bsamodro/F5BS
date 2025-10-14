@@ -5,24 +5,14 @@
 ---
 ### Step and Procedure for handson
 
+1. [Preparation](preparation.md)
 
+2. [Deploy WAF API Security](WAF-API-Security.md)
 
----
-### Environment
+3. [Prepare JWT](APM-API-Security-Part1.md)
 
-| Hostname           | HostIP     | Access  | Username | Password     |
-|--------------------|------------|---------|----------|--------------|
-| bigipA.f5demo.id   | 10.1.1.5   | TMUI    | admin    | f5demo#1     |
-| Client             | 10.1.1.11  | TMUI    | admin    | f5demo#1     |
+4. [Deploy API Protection Profile & Test](APM-API-Security-Part2.md)
 
-
-- TMOS Version : 17.1
-
-
----
-
-### Reference
-
-Other API Security Lab
+5. [Simple BOLA Attack Mitigation](APM-API-Security-Part3.md)
 
 ---
