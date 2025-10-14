@@ -1,4 +1,4 @@
-<img width="805" height="717" alt="2_add_token_authentication_2" src="https://github.com/user-attachments/assets/9ba649a3-8630-4a66-ab32-e49a3a21d5f8" />## BigIP APM API Security Deployment - Part 3
+Deployment - Part 3
 
 #### This document explain about how to mitigate one of BOLA (Broken Level Object Authentication) Attack
 ---
