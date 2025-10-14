@@ -62,7 +62,7 @@ c. Fill the parameter using following value, and click save after finished
 | Properties         | Value                    | 
 |--------------------|--------------------------|
 | Name               | f5demo-jwt-token-config  |
-| Issuer             | f5demo.net               |
+| Issuer             | f5demo.udf               |
 | Access Token Expires In | 0                   |
 | Sighning Algoritm  | Allowed : HS256          |
 | JWK Allowed List   | Allowed : /Common/f5demo-jwk-octet   |
