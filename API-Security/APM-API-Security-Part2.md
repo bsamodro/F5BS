@@ -6,7 +6,7 @@
 
 ### Deploy API Protection Profile
 
-1. Download API Protction Profile
+1. Download API Protection Profile
    Click Access -> Guided Configuration -> Wait until all configuration appear
 <img width="1210" height="442" alt="Image" src="https://github.com/user-attachments/assets/da8ea788-4f69-43d1-87a5-acbc3ea5dea3" />
 
@@ -110,4 +110,9 @@ curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bea
 ---
 ### API Rate Linit Configuration & Testing
 
+1.  Click Access -> API Protection -> Profile
+
+2.  Click sentence-api-protection
+
+3.  In Rate Limiting Frame , click "Create" 
 
