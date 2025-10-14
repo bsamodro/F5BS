@@ -167,3 +167,4 @@ curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bea
 
 ```
 ---
+[⬅️ Previous](APM-API-Security-Part1.md) | [🏠 Home](readme.md) | [➡️ Next](APM-API-Security-Part3.md)
