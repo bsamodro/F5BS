@@ -47,9 +47,9 @@ Type "API Auth Error" or Another Error Message in Body
 Click Edit and Save
 <img width="1463" height="629" alt="Image" src="https://github.com/user-attachments/assets/7363e56e-f348-47e3-ac23-02b430f31379" />
 
-6. Edit Response Rate Limiting
-Click Response and Click "sentence-api-protection auto response api rate limiting3"
-<img width="1470" height="625" alt="Image" src="https://github.com/user-attachments/assets/9572fb47-78dc-43cd-aa59-4a61d33445c6" />
+6. Edit Rate Limiting
+Click "Rate Limiting" and Click "sentence-api-protection auto rate limiting_key1"
+<img width="1433" height="723" alt="Image" src="https://github.com/user-attachments/assets/7d41690a-f445-4bfc-846c-90760368269c" />
 
 Change Key Value to 
 ```
