@@ -81,3 +81,32 @@ Change API Protection Profile and Update
 9. Update VS Security policies , change Application Security Policy to sentence-api-protection
 <img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/b5095192-03b7-4a05-ba78-6e4b5d6887e3" />
 <img width="1217" height="826" alt="Image" src="https://github.com/user-attachments/assets/25640bc5-1ffd-48d1-bed7-8b843d981c7a" />
+
+### Test Part 1 : No Token, Good Token and Exired Token
+
+1. go to Client WebShell , login as ubuntu
+2. Prepare token
+```
+cd /home/ubuntu/jwt-preparation
+Token1=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve.json` 
+Token1exp=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve_expired.json` 
+Token2=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_tony.json`
+```
+3. run following command to test API, review the result (no Token or Expired Token will have error response)
+```
+# Test no Token
+curl -v -H "Content-Type: application/json;charset=UTF-8"  http://api.sentence.com/api/animals
+
+# Test Token 1
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token1"  http://api.sentence.com/api/animals
+
+# Test Token 2
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token2"  http://api.sentence.com/api/animals
+
+# Test Token 1 Expired
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token1exp"  http://api.sentence.com/api/animals
+```
+
+### API Rate Linit Configuration & Testing
+
+
