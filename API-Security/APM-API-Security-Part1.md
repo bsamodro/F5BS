@@ -19,6 +19,7 @@ for i in `ls *json`; do echo $i; cat $i; echo ;done
 ```
 echo -n f5demo | base64 | tr '+/' '-_' | tr -d '='
 ```
+```
 ZjVkZW1v
 ```
 
