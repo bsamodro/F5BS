@@ -42,5 +42,27 @@ Click "Save"
 <img width="739" height="389" alt="Image" src="https://github.com/user-attachments/assets/1cd9d143-4b6a-441e-944c-e1cdecd41102" />
 <img width="608" height="371" alt="Image" src="https://github.com/user-attachments/assets/75930d53-fb0c-4fed-a658-90c57175c10e" />
 
+---
+#### Test Part 3 : Test Bola Attack for user1
+
+1. go to Client WebShell , login as ubuntu
+2. Prepare token
+```
+cd /home/ubuntu/jwt-preparation
+Token1=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve.json` 
+Token1exp=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_steve_expired.json` 
+Token2=`/home/ubuntu/jwt-preparation/makejwt.sh key.txt header.json payload_tony.json`
+```
+3. Run the following command ,request should be accept
+```
+# Test Token 1
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token1"  http://api.sentence.com/api/animals/1
+```
+Run the following command ,request should be reject
+```
+# Test Token 1
+curl -v -H "Content-Type: application/json;charset=UTF-8" -H "Authorization: Bearer $Token1"  http://api.sentence.com/api/animals/2
+
+```
 ----
 [⬅️ Previous](APM-API-Security-Part2.md) | [🏠 Home](readme.md) 
