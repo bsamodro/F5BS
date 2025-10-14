@@ -71,6 +71,7 @@ c. Fill the parameter using following value, and click save after finished
 <img width="1455" height="192" alt="Image" src="https://github.com/user-attachments/assets/817fe409-fa5c-444f-b733-39add698c0af" />
 
 3. Add New oAuth Server Provider List
+   
 a. Click Access -> Federation -> oAuth Client / Resource Server -> Provider
 <img width="567" height="778" alt="Image" src="https://github.com/user-attachments/assets/286ef954-6624-4beb-8869-87376d33ade1" />
 
