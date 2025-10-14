@@ -31,7 +31,7 @@ ZjVkZW1v
 a. Click Access -> Federation -> JSON Web Token -> Key Configuration
 <img width="597" height="848" alt="Image" src="https://github.com/user-attachments/assets/5f654c1c-4c8b-4d90-8c18-48db505cbae5" />
 
-b. Click New
+b. Click Create
 <img width="1484" height="226" alt="Image" src="https://github.com/user-attachments/assets/49689ecd-be3c-4ef0-9dce-5403af83a127" />
 
 c. Fill the parameter using following value, and click save after finished
