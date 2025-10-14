@@ -36,3 +36,10 @@ Click "Save"
 
 <img width="625" height="732" alt="Image" src="https://github.com/user-attachments/assets/9dfce6f2-18a1-487a-858a-fc489c769098" />
 
+8. Check whether Successful branch go to Allow result. if It go to reject , we should change the end result. Please refer to following image sample
+
+<img width="739" height="389" alt="Image" src="https://github.com/user-attachments/assets/115af8bd-e16f-4329-b742-3ac276a9e365" />
+<img width="739" height="389" alt="Image" src="https://github.com/user-attachments/assets/1cd9d143-4b6a-441e-944c-e1cdecd41102" />
+<img width="608" height="371" alt="Image" src="https://github.com/user-attachments/assets/75930d53-fb0c-4fed-a658-90c57175c10e" />
+
+----
