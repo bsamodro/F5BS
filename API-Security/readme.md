@@ -1,6 +1,6 @@
 ### Lab Diagram
 
-![Image](https://github.com/user-attachments/assets/35e5a105-44b4-42cd-a4fc-e0513df47be9)
+<img width="746" height="229" alt="Image" src="https://github.com/user-attachments/assets/3ca8d4c5-061e-43ac-a454-64c8f3e796b5" />
 
 ---
 ### Step and Procedure for handson
