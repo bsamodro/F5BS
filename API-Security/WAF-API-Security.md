@@ -97,3 +97,4 @@ curl --location --request DELETE 'http://api.sentence.com/api/adjectives/beautif
 <img width="1471" height="574" alt="Image" src="https://github.com/user-attachments/assets/a878c442-0748-41a6-a614-718eb67ff662" />
 
 ---
+[⬅️ Previous](preparation.md) | [🏠 Home](readme.md) | [➡️ Next](APM-API-Security-Part1.md)
